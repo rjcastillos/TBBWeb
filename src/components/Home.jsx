@@ -51,9 +51,8 @@ const Home = () => {
 
         
             {Object.keys(Recipes).map(key =>
-
+            Recipes[key]['Title'].toLowerCase().includes(SearchQuery) &&
             <Card Recipe={Recipes[key]} key={Recipes[key]['RecipeCodeName']}/>
-            
             )}
           
         </div>

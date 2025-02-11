@@ -5,8 +5,12 @@ const App = () =>{
  
 return(
   <div>
-    {Object.keys(Recipes).map(key =>
-       <p>{key}: <strong>{Recipes[key]['Title']}</strong></p>)}
+{/*         {Object.keys(Recipes).map(key =>
+       <p>{key}: <strong>{Recipes[key]['Title']}</strong></p>)} */}
+        {Object.keys(Recipes).map(key =>
+         Recipes[key]['Title'].toLowerCase().startsWith('alm') &&<>{Recipes[key]['Title']}</>
+          )}
+     
   </div>
 )
 }
