@@ -41,7 +41,10 @@ h2 {
   padding : 10px;
   background-color:#cdcdcd;
   border-radius: 10px;
-  min-height: 100px
+  min-height: 100px;
+  max-width: 50%;
+  justify-content: center;
+  flex: wrap;
 }
 button{
   border: #4b5362;
