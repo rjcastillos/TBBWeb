@@ -10,7 +10,7 @@ import OpenCards from './components/OpenCards'
 const Mine = () => {
 
   return (
-    <div>
+    <div className='mb-500'>
       <p> Min 46:30 and APIs from the Tech with Tim at 1:03</p>
     </div>
   )
@@ -25,13 +25,13 @@ const App = () =>{
        {/*  <OpenCards/>  */}
         <ImageSlider/>
         <div>
-         <h1 className="luciluci card-container">Recipes</h1>
+         <h1 className="luciluci text-3xl mt-100px">Recipes</h1>
           {/* <Card Recipe={{Title:"Recipe one"}}/>
           //<Card Recipe={{Title:"Recipe Two"}}/>
           //<Card Recipe={{Title:"Recipe Three"}}/>
            <Home/>
           */}
-            <Home/>    
+          <Home/> 
         </div>
     </div>
   )
