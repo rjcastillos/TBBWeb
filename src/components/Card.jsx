@@ -14,6 +14,10 @@ const Card = ({Recipe}) => {
         <div className='CodeName'>   
           {Recipe.RecipeCodeName}
          </div>
+         <div className='refInCard'>
+        <a href={Recipe.Link} target='_blank'>link</a><a/>
+        
+         </div>
     </div>
     )
   }
