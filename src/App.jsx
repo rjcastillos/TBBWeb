@@ -14,9 +14,9 @@ const Mine = () => {
 
   return (
     <div className='banner'>
-      <img src="src/assets/TBBbanner.svg" alt="Travel bx Baking http://TravelbyBaking.com" />
+      <img src="src/assets/TBBbanner.svg" alt="Travel by Baking http://TravelbyBaking.com" />
       {/* <p> Min 46:30 and APIs from the Tech with Tim at 1:03</p> */}
-      <p><blockquote className=''> 
+      <p><blockquote className='quote-text'> 
       ”You have to taste a culture to understand it.”
       <br />
       –Deborah Cater</blockquote></p>

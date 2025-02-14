@@ -54,8 +54,8 @@ const ImageSlider = () => {
       right1: { x: "50%", scale: 0.7, zIndex: 3 },
     };
     return (
-    <div>
-      <div className="flex justify-center min-h-75">
+    <div className='empty__class'>
+      <div className="flex justify-center flex mar__seventy__w">
       {images.map((image, index) => (
         <a href={`${urls[index]}`}>
         <motion.img
@@ -68,11 +68,11 @@ const ImageSlider = () => {
           animate={positions[positionIndexes[index]]}
           variants={imageVariants}
           transition={{ duration: 0.7 }}
-          style={{ width: "40%", position: "absolute" }}
+          style={{ width: "35%", position: "absolute" }}
         /></a>
       ))}
       </div>
-            <div className="flex justify-center gap-2">
+            <div className="carr__mar flex justify-center  gap-3">
             <button className="text-black text-xl bg-gray-400 rounded-md py-2 px-4" onClick={handleBack}>Back</button>
             <button className="text-black text-xl bg-gray-400 rounded-md py-2 px-4" onClick={handleNext}>Next</button>
             </div>

@@ -1,11 +1,18 @@
-* {
+*,
+*::before
+*::after {
   box-sizing: border-box ;
-  margin: 0;
-  padding: 0;
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 body{
-  padding: 40px;
+  margin: 0px ;
+  padding: 0px;
   background-color: whitesmoke;
 }
 
@@ -63,5 +70,26 @@ button{
 .Home{
   border-top: 2rem;
   padding-top: 1rem;
+}
+banner{
+  max-width: 400px;
+}
+
+.mar__seventy__w{
+/*   margin-right: 10rem; */
+/*   width: 70%; */
+/*   margin-bottom: 220px; */
+margin-right: 30%;
+}
+.banner{
+  margin-bottom: 5px;
+}
+.notall{
+  height: 60%;
+}
+.carr__mar{
+  margin-top: 20%;
+  align-items: center;
+  margin-bottom: 5px;
 }
 @import "tailwindcss";
