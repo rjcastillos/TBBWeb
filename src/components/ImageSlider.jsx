@@ -37,6 +37,13 @@ const ImageSlider = () => {
                         RecipeImg5
                     ]
   
+    const urls = [
+                  "https://travelbybaking.com/almond-cookies/",
+                  "https://travelbybaking.com/apple-puff-pastry-tarts/",
+                  "https://travelbybaking.com/crispy-and-spicy-chicken-wings-in-the-oven/",
+                  "https://travelbybaking.com/german-style-orange-cheesecake/",
+                  "https://travelbybaking.com/venezuelan-ham-cachitos-bread-rolls/"
+    ]
     const positions = ["center", "left1", "left", "right", "right1"];
   
     const imageVariants = {
@@ -50,6 +57,7 @@ const ImageSlider = () => {
     <div>
       <div className="flex justify-center min-h-75">
       {images.map((image, index) => (
+        <a href={`${urls[index]}`}>
         <motion.img
           key={index}
           src={image}
@@ -61,7 +69,7 @@ const ImageSlider = () => {
           variants={imageVariants}
           transition={{ duration: 0.7 }}
           style={{ width: "40%", position: "absolute" }}
-        />
+        /></a>
       ))}
       </div>
             <div className="flex justify-center gap-2">
