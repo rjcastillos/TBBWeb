@@ -54,7 +54,7 @@ const ImageSlider = () => {
           key={index}
           src={image}
           alt={image}
-          href="https://travelbybaking.com"
+          a href="https://travelbybaking.com"
           className="rounded-[12px]"
           initial="center"
           animate={positions[positionIndexes[index]]}
