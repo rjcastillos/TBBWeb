@@ -55,7 +55,7 @@ const ImageSlider = () => {
     };
     return (
     <div className='empty__class'>
-      <div className="flex justify-center flex mar__seventy__w">
+      <div className="flex justify-center mar__seventy__w">
       {images.map((image, index) => (
         <a href={`${urls[index]}`}>
         <motion.img
