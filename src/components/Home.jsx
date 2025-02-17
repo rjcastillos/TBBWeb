@@ -34,7 +34,7 @@ const Home = () => {
         
         <div className='Home'> 
 
-
+            <h1 className="luciluci text-3xl">Recipes</h1>
             <form onSubmit={handleSearch} className='search-form'>
                 <input type="text"
                 placeholder='Search for a Recipe...'

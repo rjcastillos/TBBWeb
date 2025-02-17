@@ -33,7 +33,7 @@ const App = () =>{
         <Quote/>
         <ImageSlider/>
         <div>
-         <h1 className="luciluci text-3xl mt-100px">Recipes</h1>
+         
           {/* <Card Recipe={{Title:"Recipe one"}}/>
           //<Card Recipe={{Title:"Recipe Two"}}/>
           //<Card Recipe={{Title:"Recipe Three"}}/>
