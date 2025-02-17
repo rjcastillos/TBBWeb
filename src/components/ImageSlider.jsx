@@ -73,8 +73,8 @@ const ImageSlider = () => {
       ))}
       </div>
       <div className="flex flex-wrap relative -top-[20px] back-next-separation justify-center content-center gap-3">
-        <button className="text-black text-xl bg-gray-400 rounded-md py-8 px-12" onClick={handleBack}>&lt;&lt;&lt;</button>
-        <button className="text-black text-xl bg-gray-400 rounded-md py-8 px-12" onClick={handleNext}>&gt;&gt;&gt;</button>
+        <button className="text-white text-xs bg-[#0959b2] rounded-md py-8 px-12" onClick={handleBack}>&lt;&lt;&lt;</button>
+        <button className="text-white text-xs bg-[#0959b2] rounded-md py-8 px-12" onClick={handleNext}>&gt;&gt;&gt;</button>
       </div>
       </div>
     );

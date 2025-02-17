@@ -42,12 +42,6 @@ body{
   z-index: 1;
 }
 
-.banner{
-  width: 300px;
-  height: 100%;
-  margin-left: 5px;
-  margin-bottom: 0px;
-}
 
 
 h1{
@@ -117,14 +111,4 @@ button{
   margin-top: 15%;
 }
 
-
-
-.Myfooter{
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  border-radius: 0;
-  width: 100%;
-  z-index: 1;
-}
 
