@@ -8,7 +8,7 @@ const MyFooter = () => {
         <a className="flex flex-wrap"
           href="https://www.youtube.com/@TravelByBaking">
           <img
-            src="../public/youtube-6.svg"
+            src="youtube-6.svg"
             alt="YouTube icon"
             className="w-[90px] h-[70px]"
           />
@@ -18,7 +18,7 @@ const MyFooter = () => {
         <a className="flex flex-wrap"
           href="https://www.facebook.com/profile.php?id=61554003034910">
           <img
-            src="../public/Facebook-f_Logo-Blue-Logo.wine.svg"
+            src="Facebook-f_Logo-Blue-Logo.wine.svg"
             alt="FaceBook icon"
             className="w-[60px] h-[55px]"
           />
@@ -30,7 +30,7 @@ const MyFooter = () => {
           href="https://www.instagram.com/travel_by_baking/"
         >
           <img
-            src="../public/Instagram-Logo.wine.svg"
+            src="Instagram-Logo.wine.svg"
             alt="Instagram icon"
             className="w-[60px] h-[55px]"
           />
@@ -42,7 +42,7 @@ const MyFooter = () => {
           href="https://www.pinterest.com/ilzepumpia/"
         >
           <img
-            src="../public/pinterest-tile.svg"
+            src="pinterest-tile.svg"
             alt="Pinterest icon"
             className=""
           />
