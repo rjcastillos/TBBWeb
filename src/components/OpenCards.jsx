@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 
 
-import RecipeImg1 from '../../public/almond-cookies_tmbn_730_v01.jpg'
-import RecipeImg2 from '../../public/apple-puff-pastry-tarts_tmbn_730_v01.jpg'
-import RecipeImg3 from '../../public/crispy-and-spicy-chicken-wings-in-the-oven_tmbn_730_v01.jpg'
-import RecipeImg4 from '../../public/german-style-orange-cheesecake_tmbn_730_v01.jpg'
-import RecipeImg5 from '../../public/venezuelan-ham-cachitos-bread-rolls_tmbn_v1_730_v01.jpg'
+import RecipeImg1 from '../assets/img/almond-cookies_tmbn_730_v01.jpg'
+import RecipeImg2 from '../assets/img/apple-puff-pastry-tarts_tmbn_730_v01.jpg'
+import RecipeImg3 from '../assets/img/crispy-and-spicy-chicken-wings-in-the-oven_tmbn_730_v01.jpg'
+import RecipeImg4 from '../assets/img/german-style-orange-cheesecake_tmbn_730_v01.jpg'
+import RecipeImg5 from '../assets/img/Venezuelan-ham-cachitos-bread-rolls.jpg'
 
 import {motion} from 'framer-motion'
 

@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import {motion} from 'framer-motion'
-import RecipeImg1 from '/almond-cookies_tmbn_730_v01.jpg'
-import RecipeImg2 from '/apple-puff-pastry-tarts_tmbn_730_v01.jpg'
-import RecipeImg3 from '/crispy-and-spicy-chicken-wings-in-the-oven_tmbn_730_v01.jpg'
-import RecipeImg4 from '/german-style-orange-cheesecake_tmbn_730_v01.jpg'
-import RecipeImg5 from '/venezuelan-ham-cachitos-bread-rolls_tmbn_v1_730_v01.jpg'
+import RecipeImg1 from '../assets/img/almond-cookies_tmbn_730_v01.jpg'
+import RecipeImg2 from '../assets/img/apple-puff-pastry-tarts_tmbn_730_v01.jpg'
+import RecipeImg3 from '../assets/img/crispy-and-spicy-chicken-wings-in-the-oven_tmbn_730_v01.jpg'
+import RecipeImg4 from '../assets/img/german-style-orange-cheesecake_tmbn_730_v01.jpg'
+import RecipeImg5 from '../assets/img/Venezuelan-ham-cachitos-bread-rolls.jpg'
 import { div } from 'framer-motion/client'
 
 const ImageSlider = () => {
@@ -73,8 +73,8 @@ const ImageSlider = () => {
       ))}
       </div>
       <div className="flex flex-wrap relative -top-[20px] back-next-separation justify-center content-center gap-3">
-        <button className="text-white text-xs bg-[#0959b2] rounded-md py-8 px-12" onClick={handleBack}>&lt;&lt;&lt;</button>
-        <button className="text-white text-xs bg-[#0959b2] rounded-md py-8 px-12" onClick={handleNext}>&gt;&gt;&gt;</button>
+        <button className="text-white ImageSliderBackNextBtn bg-[#0959b2] rounded-md py-8 px-12" onClick={handleBack}>&lt;&lt;&lt;</button>
+        <button className="text-white ImageSliderBackNextBtn bg-[#0959b2] rounded-md py-8 px-12" onClick={handleNext}>&gt;&gt;&gt;</button>
       </div>
       </div>
     );

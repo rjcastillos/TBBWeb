@@ -5,8 +5,9 @@
   box-sizing: border-box ;
 }
 
-/* :root {
-font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+:root {
+
+/* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -17,13 +18,29 @@ background-color: #242424;
 font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
+  -moz-osx-font-smoothing: grayscale; */
+  --DarkColor   : #0959b2;
+  --MediumColor : #2483c3;
+  --LightColor  : #52d0df;
+  --FontColor   : #0959b2;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+  font-family: "Noto Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+ 
+
 }
 
 body{
@@ -107,8 +124,6 @@ button{
   margin-top: 22%;
 }
 
-.Home{
-  margin-top: 15%;
+.ImageSliderBackNextBtn {
+  font-size: x-small;
 }
-
-

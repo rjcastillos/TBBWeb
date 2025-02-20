@@ -1,0 +1,20 @@
+
+.Home{
+    margin-top: 15%;
+    color: var(--FontColor);
+  }
+  .Home:hover{ ~
+  .MyFooter{
+      visibility: hidden;
+    }
+  }
+  .imgcard{
+    img {
+        width: 375px;
+        height: 211px;
+        border-radius: 8px;
+        padding: 5px;
+        border: 1px solid #fff;
+        }
+    }
+

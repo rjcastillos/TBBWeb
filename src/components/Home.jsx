@@ -37,7 +37,7 @@ const Home = () => {
             <h1 className="luciluci text-3xl">Recipes</h1>
             <form onSubmit={handleSearch} className='search-form'>
                 <input type="text"
-                placeholder='Search for a Recipe...'
+                placeholder='Filter recipes...'
                 className='search-input'
                 value={SearchQuery}
                 onChange={(e)=> setSearchQuery(e.target.value)}
@@ -51,7 +51,7 @@ const Home = () => {
 
         
             {Object.keys(Recipes).map(key =>
-            Recipes[key]['Title'].toLowerCase().includes(SearchQuery) &&
+            Recipes[key]['Title'].toLowerCase().includes(SearchQuery.toLocaleLowerCase()) &&
             <Card Recipe={Recipes[key]} key={Recipes[key]['RecipeCodeName']}/>
             )}
           
