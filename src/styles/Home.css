@@ -1,12 +1,15 @@
 
 .Home{
     margin-top: 15%;
+    margin-right: 0;
+    border-width: 2px;
+    border-color: aqua;
     color: var(--FontColor);
   }
   .Home:hover{ ~
-  .MyFooter{
+.MyFooter{
       visibility: hidden;
-    }
+   }
   }
   .imgcard{
     img {

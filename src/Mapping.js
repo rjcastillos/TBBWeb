@@ -5,8 +5,9 @@ let DATASET    = JSON.parse(fs.readFileSync('/Users/ramon/Documents/DocsandMisc/
 const KEYS = Object.keys(DATASET)
  
       KEYS.map((key)=> (
-        console.log(DATASET[key]['ThumbNails'])
+       /*  console.log(DATASET[key]['ThumbNails']) */
+        console.log(DATASET[key]['ThumbNails'].map( thumbnail => console.log(thumbnail) ))
       )) 
-console.log(`Recipe ${DATASET['almond-cookies']['ThumbNails']}`)
+console.log(`Recipe ${DATASET['almond-cookies']['ThumbNails'].length}`)
 console.log(DATASET['almond-cookies']['Categories'])
       

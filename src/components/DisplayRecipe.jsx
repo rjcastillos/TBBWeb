@@ -1,6 +1,7 @@
 import React from 'react'
 import DATASET from '/Users/ramon/Documents/DocsandMisc/github/projects/TravelByBaking/localworking/allRecipesData.json'
 import { h3 } from 'framer-motion/client'
+const slideImages =[{}]
 const DisplayRecipe = () => {
     const KEYS = Object.keys(DATASET)
   return (
@@ -10,7 +11,17 @@ const DisplayRecipe = () => {
       </div>
       <div className='flex-col'>
        {KEYS.map((key)=> (
-        <p>{key}</p>
+ /*        <p> Key = {key} type of Title {typeof DATASET[key]['ThubNamils'] },lenght {DATASET[key]['ThumbNails'].length} : ThumbNails  {DATASET[key]['ThumbNails']} </p> */
+        <ul>
+          {key}
+          {DATASET[key]['ThumbNails'].map(value =>
+            (
+                  <li>
+                     {value}
+                 </li>
+            )
+          )}
+        </ul>
       ))}
       </div>
     </div>
