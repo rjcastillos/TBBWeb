@@ -1,9 +1,18 @@
 import React from 'react'
 import DATASET from '/Users/ramon/Documents/DocsandMisc/github/projects/TravelByBaking/localworking/allRecipesData.json'
 import { h3 } from 'framer-motion/client'
-const slideImages =[{}]
+const fetchedImages =[]
+
 const DisplayRecipe = () => {
-    const KEYS = Object.keys(DATASET)
+  const KEYS = Object.keys(DATASET)
+
+  const slideImages = () => {
+    console.log("Was called")
+    KEYS.map((key)=> (
+    DATASET[key]['ThumbNails'].map( thumbnail => fetchedImages.push(thumbnail) )
+    ))
+    return fetchedImages
+  }
   return (
     <div className='recipe-fixed flex Home justify-start flex-col w-[50%]'>
      <div className='flex flex-col'>
@@ -16,14 +25,17 @@ const DisplayRecipe = () => {
           {key}
           {DATASET[key]['ThumbNails'].map(value =>
             (
+              
                   <li>
                      {value}
                  </li>
             )
+           
           )}
         </ul>
       ))}
       </div>
+      <h1><strong>{slideImages()}</strong></h1>
     </div>
   )
 }
