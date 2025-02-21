@@ -9,7 +9,7 @@ import { useState } from 'react'
 const handleSearch = (e) => {
 alert(SearchQuery)
 e.preventDefault()
-setSearchQuery("......")
+setSearchQuery("cake")
 }
 
 
@@ -34,8 +34,8 @@ const Home = () => {
         
         <div className='Home'> 
 
-            <h1 className="luciluci text-3xl">Recipes</h1>
-            <form onSubmit={handleSearch} className='search-form'>
+            <h1 className="luciluci text-3xl ">Recipes</h1>
+            <form onSubmit={handleSearch} className='search-form w-max'>
                 <input type="text"
                 placeholder='Filter recipes...'
                 className='search-input'

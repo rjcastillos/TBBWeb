@@ -9,6 +9,9 @@ import OpenCards from './components/OpenCards'
 import MyFooter from './components/MyFooter'
 import Quote from './components/Quote'
 import MyHeader from './components/MyHeader'
+import DisplayRecipe from './components/DisplayRecipe'
+
+
 
 
 const App = () =>{
@@ -17,9 +20,13 @@ const App = () =>{
         <MyHeader/>
         <Quote/>
         <ImageSlider/>
-        <Home/> 
+        <div className='flex justify-evenly'>
+        <Home/>
+        <DisplayRecipe/>
+        </div>
         {/* <OpenCards/>  */}
-        <MyFooter/>  
+        <MyFooter/>
+        
     </div>
   )
 }

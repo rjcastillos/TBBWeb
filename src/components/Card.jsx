@@ -18,7 +18,7 @@ const Card = ({Recipe}) => {
          <div className='flex justify-start'>
          {Recipe.Description}
          </div>
-         <div className='refInCard'>
+         <div className='refInCard w-max'>
         <a href={Recipe.Link} target='_blank'>Recipe's details</a><a/>
         
          </div>

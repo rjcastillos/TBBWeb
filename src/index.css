@@ -93,7 +93,7 @@ h2 {
   background-color:#cdcdcd;
   border-radius: 10px;
   min-height: 100px;
-  max-width: 50%;
+  width: 440px;
   justify-content: center;
   flex: wrap;
 }
