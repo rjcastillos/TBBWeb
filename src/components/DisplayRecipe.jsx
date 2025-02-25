@@ -1,6 +1,8 @@
 import React from 'react'
 import DATASET from '/Users/ramon/Documents/DocsandMisc/github/projects/TravelByBaking/localworking/allRecipesData.json'
 import { h3 } from 'framer-motion/client'
+import MyConfig from '../Configuration.json'
+const featuredCategories = MyConfig['featuredCategories']
 const fetchedImages =[]
 
 const DisplayRecipe = () => {
@@ -19,6 +21,7 @@ const DisplayRecipe = () => {
       <h1 className='text-3xl'>Recipe Details:</h1>
       </div>
       <div className='flex-col'>
+        <span>Featured Recipes : {featuredCategories}</span>
        {KEYS.map((key)=> (
  /*        <p> Key = {key} type of Title {typeof DATASET[key]['ThubNamils'] },lenght {DATASET[key]['ThumbNails'].length} : ThumbNails  {DATASET[key]['ThumbNails']} </p> */
         <ul>
