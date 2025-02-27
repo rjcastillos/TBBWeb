@@ -3,4 +3,7 @@
     "pastries",
     "savoury recipes with meat",
     "vegetarian"
-]}
+],
+"imagesPrefix":"../assets/img/"
+}
+

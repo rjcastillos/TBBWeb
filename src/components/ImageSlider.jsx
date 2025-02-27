@@ -1,11 +1,17 @@
 import React, {useState} from 'react'
 import {motion} from 'framer-motion'
+import MyConfig from '../Configuration.json'
+const featuredCategories = MyConfig['featuredCategories']
+const fetchedImages =[]
+const imagesPrefix = MyConfig['imagesPrefix']
 import RecipeImg1 from '../assets/img/almond-cookies_tmbn_730_v01.jpg'
 import RecipeImg2 from '../assets/img/apple-puff-pastry-tarts_tmbn_730_v01.jpg'
 import RecipeImg3 from '../assets/img/crispy-and-spicy-chicken-wings-in-the-oven_tmbn_730_v01.jpg'
 import RecipeImg4 from '../assets/img/german-style-orange-cheesecake_tmbn_730_v01.jpg'
 import RecipeImg5 from '../assets/img/Venezuelan-ham-cachitos-bread-rolls.jpg'
+
 import { div } from 'framer-motion/client'
+
 
 const ImageSlider = () => {
     const [positionIndexes, setPositionIndexes] = useState([0, 1, 2, 3, 4]);
