@@ -2,6 +2,7 @@ import React from 'react'
 import DATASET from '/Users/ramon/Documents/DocsandMisc/github/projects/TravelByBaking/localworking/allRecipesData.json'
 import { h3 } from 'framer-motion/client'
 import MyConfig from '../Configuration.json'
+import getRecipesbyCategories from '../getRecipesbyCategory.js'
 const featuredCategories = MyConfig['featuredCategories']
 const fetchedImages =[]
 
@@ -15,6 +16,7 @@ const DisplayRecipe = () => {
     ))
     return fetchedImages
   }
+
   return (
     <div className='recipe-fixed flex Home justify-start flex-col w-[50%]'>
      <div className='flex flex-col'>
@@ -38,7 +40,7 @@ const DisplayRecipe = () => {
         </ul>
       ))}
       </div>
-      <h1><strong>{slideImages()}</strong></h1>
+      <h1><strong>{getRecipesbyCategories(1,"featured")}</strong></h1>
     </div>
   )
 }

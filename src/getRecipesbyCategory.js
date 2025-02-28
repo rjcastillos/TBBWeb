@@ -1,18 +1,24 @@
 
-import { readFileSync , writeFile } from 'fs';
-import { isArrayBuffer } from 'util/types';
-const DATASET  = JSON.parse(readFileSync('./recipesbyCategory.json','utf-8')) 
-const MyConfig = JSON.parse(readFileSync('./Configuration.json','utf-8'))
+//import { readFileSync , writeFile } from 'fs';
+//import { isArrayBuffer } from 'util/types';
+/* const DATASET  = JSON.parse(readFileSync('./recipesbyCategory.json','utf-8')) 
+const MyConfig = JSON.parse(readFileSync('./Configuration.json','utf-8')) */
+import DATASET from './recipesbyCategory.json' assert { type: 'json' }
+import MyConfig from './Configuration.json' assert { type: 'json' }
 const DEBUG=MyConfig['DEBUG']
 const featuredCategories = MyConfig['featuredCategories']
 //
 //This functions accepts 2 params
 // numRecipes = Maximum numbers of Recipes by Category to be extracted
-// fromCategories = an Array of categogires 
-//                  if the value is "featured" will take as default the ones configired
-//                  in "Configuration.json"
-//                  otherwise are passed
+// fromCategories = It is an Array of categogires 
+//                  if this param is not present or is not an array the categories will be taken from
+//                  the "Configuration.json" file
+//                  To pass categories correclty they need to be are passed as a list
 //                  ["cate1","cate2","cate3"]
+//                  getRecipesbyCategories(1,["snacks","desserts"])
+//                  or 
+//                  list=["cakes","pastries"]
+//                  getRecipesbyCategories(1,list)
 
 
 var selectedRecipes = []
@@ -24,7 +30,7 @@ function getRecipesbyCategories(numRecipes,fromCategories) {
         if (DEBUG) console.log(`Getting category ${cateIdx} =>  ${fromCategories[cateIdx]} Containing ${DATASET[fromCategories[cateIdx]].length} Recipes`)
         var Recipe = getRecipe(fromCategories[cateIdx],DATASET[fromCategories[cateIdx]].length)
     }
-    console.log(`RETURN :::::: ${JSON.stringify(selectedRecipes, null, 4)}`)
+    console.log(`RETURN :::::: ${numRecipes} ${JSON.stringify(selectedRecipes, null, 4)}`)
     return JSON.stringify(selectedRecipes, null, 4)
 }
 
@@ -40,8 +46,7 @@ var choosenOne=Math.floor(Math.random() * numberofRecipesinit)
 }
 
 //getRecipesbyCategories(1,featuredCategories)
-getRecipesbyCategories(1,["snacks","desserts"])
-//getRecipesbyCategories(1)
+//getRecipesbyCategories(1,["snacks","desserts"])
+getRecipesbyCategories(1)
 
-
-
+export default getRecipesbyCategories
