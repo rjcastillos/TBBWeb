@@ -4,10 +4,11 @@ import { isArrayBuffer } from 'util/types';
 const DATASET  = JSON.parse(readFileSync('/Users/ramon/Documents/DocsandMisc/github/projects/TravelByBaking/localworking/allRecipesData.json','utf-8')) 
 const MyConfig = JSON.parse(readFileSync('./Configuration.json','utf-8'))
 const DEBUG=MyConfig['DEBUG']
+// Creates a .json file out of the recipes data 
+// This file organizes creating a view of the Recipes by Categories.
+//
 //KEYS is an Array containing all the Recipes keys
 const KEYS = Object.keys(DATASET)
-// manualObj is a the featuredRecipes template 
-//const manualObj = {"recipeKey":{"images":["image1","image2"],"Link":"url"}}
 //
 // Creates a .json file with recipes by categories 
 //{
