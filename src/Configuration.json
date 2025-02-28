@@ -4,6 +4,6 @@
     "savoury recipes with meat",
     "vegetarian"
 ],
-"imagesPrefix":"../assets/img/"
+"imagesPrefix":"../assets/img/",
+"DEBUG":false
 }
-

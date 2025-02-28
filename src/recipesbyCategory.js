@@ -2,6 +2,8 @@
 import { readFileSync , writeFile } from 'fs';
 import { isArrayBuffer } from 'util/types';
 const DATASET  = JSON.parse(readFileSync('/Users/ramon/Documents/DocsandMisc/github/projects/TravelByBaking/localworking/allRecipesData.json','utf-8')) 
+const MyConfig = JSON.parse(readFileSync('./Configuration.json','utf-8'))
+const DEBUG=MyConfig['DEBUG']
 //KEYS is an Array containing all the Recipes keys
 const KEYS = Object.keys(DATASET)
 // manualObj is a the featuredRecipes template 
@@ -19,7 +21,6 @@ const KEYS = Object.keys(DATASET)
 
 console.log(`We have ${KEYS.length} Recipes`)
 
-var  categoriesContent = []
 var catList = {}
 
 for (var r = 0; r < KEYS.length; r++) {
@@ -29,10 +30,11 @@ for (var r = 0; r < KEYS.length; r++) {
     var ThumbNails = DATASET[KEYS[r]]['ThumbNails']
     var Categories = DATASET[KEYS[r]]['Categories']
     console.log(`Recipe Code Name => ${RecipeCodeName}`)
-    console.log(`Title => ${Title}`)
-    console.log(`Link => ${Link}`)
-    console.log(`ThumbNails => ${ThumbNails}`)
-    console.log(`Categories ${Categories.length}:`)
+    if (DEBUG) 
+        {console.log(`Title => ${Title}`)
+        console.log(`Link => ${Link}`)
+        console.log(`ThumbNails => ${ThumbNails}`)
+        console.log(`Categories ${Categories.length}:`)}
     for (let cateIdx = 0; cateIdx < Categories.length ; cateIdx++) {
         console.log(`Category ${cateIdx} => ${Categories[cateIdx]}`)
         var categoryVal=Categories[cateIdx]
@@ -41,19 +43,17 @@ for (var r = 0; r < KEYS.length; r++) {
             catList[categoryVal]=[]
         }
         catList[categoryVal].push({"Title":Title,"Link":Link,"ThumbNails":ThumbNails})
-        console.log(catList[categoryVal])
+        if (DEBUG) {console.log(catList[categoryVal])}
     }
 }
 
 
 console.log(`catList is an ${typeof catList}`) 
-console.log(Object.keys(catList))
 const catListcat=Object.keys(catList)
 console.log(`Length of catList = ${catListcat.length}`)
 
 for (var r = 0 ; r < catListcat.length; r ++){
         console.log(catListcat[r])
-        console.log(catListcat[r]['Link'])
 }
 
 
