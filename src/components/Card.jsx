@@ -3,7 +3,7 @@ import 'react-slideshow-image/dist/styles.css'
 import {Fade , Slide} from 'react-slideshow-image'
 import { useState } from 'react'
 const Card = ({Recipe}) => {
-  const img_prefix  = "src/assets/img/"
+const img_prefix  = "src/assets/img/"
     const [favorited, sethasFavorited] = useState(false);
     return(
       <div className='card'>
