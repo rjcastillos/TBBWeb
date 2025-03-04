@@ -30,7 +30,7 @@ function getRecipesbyCategories(numRecipes,fromCategories) {
         if (DEBUG) console.log(`Getting category ${cateIdx} =>  ${fromCategories[cateIdx]} Containing ${DATASET[fromCategories[cateIdx]].length} Recipes`)
         var Recipe = getRecipe(fromCategories[cateIdx],DATASET[fromCategories[cateIdx]].length)
     }
-    console.log(`RETURN :::::: ${numRecipes} ${JSON.stringify(selectedRecipes, null, 4)}`)
+    if (DEBUG) {console.log(`RETURN :::::: ${numRecipes} ${JSON.stringify(selectedRecipes, null, 4)}`)}
     return JSON.stringify(selectedRecipes, null, 4)
 }
 
@@ -47,6 +47,6 @@ var choosenOne=Math.floor(Math.random() * numberofRecipesinit)
 
 //getRecipesbyCategories(1,featuredCategories)
 //getRecipesbyCategories(1,["snacks","desserts"])
-getRecipesbyCategories(1)
+//getRecipesbyCategories(1)
 
 export default getRecipesbyCategories

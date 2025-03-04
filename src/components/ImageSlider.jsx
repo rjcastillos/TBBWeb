@@ -1,14 +1,31 @@
 import React, {useState} from 'react'
 import {motion} from 'framer-motion'
+import getRecipesbyCategories from '../getRecipesbyCategory.js'
+import getlastRecipe from '../getlastRecipe.js'
 import MyConfig from '../Configuration.json'
+const DEBUG=MyConfig['DEBUG']
 const featuredCategories = MyConfig['featuredCategories']
-const fetchedImages =[]
+const img_prefix  = "src/assets/img/"
+const fetchedImages = JSON.parse(getRecipesbyCategories(1,"featured"))
 const imagesPrefix = MyConfig['imagesPrefix']
-import RecipeImg1 from '../assets/img/almond-cookies_tmbn_730_v01.jpg'
-import RecipeImg2 from '../assets/img/apple-puff-pastry-tarts_tmbn_730_v01.jpg'
-import RecipeImg3 from '../assets/img/crispy-and-spicy-chicken-wings-in-the-oven_tmbn_730_v01.jpg'
-import RecipeImg4 from '../assets/img/german-style-orange-cheesecake_tmbn_730_v01.jpg'
-import RecipeImg5 from '../assets/img/Venezuelan-ham-cachitos-bread-rolls.jpg'
+
+const urls = []
+const latestRecipe=JSON.parse(getlastRecipe())
+if (DEBUG) {
+  console.log(`Ìmages ${typeof fetchedImages} 0 = ${fetchedImages[0]["ThumbNail"]}`)
+  console.log(`LAST = ${latestRecipe[0]["ThumbNail"]}`)}
+
+const RecipeImg1 = img_prefix+latestRecipe[0]["ThumbNail"]
+urls[0]=latestRecipe[0]["Link"]
+const RecipeImg2 = img_prefix+fetchedImages[0]["ThumbNail"]
+urls[1]=fetchedImages[0]["Link"]
+const RecipeImg3 = img_prefix+fetchedImages[1]["ThumbNail"]
+urls[2]=fetchedImages[1]["Link"]
+const RecipeImg4 = img_prefix+fetchedImages[2]["ThumbNail"]
+urls[3]=fetchedImages[2]["Link"]
+const RecipeImg5 = img_prefix+fetchedImages[3]["ThumbNail"]
+urls[4]=fetchedImages[3]["Link"]
+
 
 import { div } from 'framer-motion/client'
 
@@ -43,13 +60,13 @@ const ImageSlider = () => {
                         RecipeImg5
                     ]
   
-    const urls = [
+/*     const urls = [
                   "https://travelbybaking.com/almond-cookies/",
                   "https://travelbybaking.com/apple-puff-pastry-tarts/",
                   "https://travelbybaking.com/crispy-and-spicy-chicken-wings-in-the-oven/",
                   "https://travelbybaking.com/german-style-orange-cheesecake/",
                   "https://travelbybaking.com/venezuelan-ham-cachitos-bread-rolls/"
-    ]
+    ] */
     const positions = ["center", "left1", "left", "right", "right1"];
   
     const imageVariants = {

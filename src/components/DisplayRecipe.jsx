@@ -3,6 +3,7 @@ import DATASET from '/Users/ramon/Documents/DocsandMisc/github/projects/TravelBy
 import { h3 } from 'framer-motion/client'
 import MyConfig from '../Configuration.json'
 import getRecipesbyCategories from '../getRecipesbyCategory.js'
+
 const featuredCategories = MyConfig['featuredCategories']
 const fetchedImages =[]
 
