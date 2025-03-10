@@ -22,7 +22,7 @@ const MyHeader = () => {
           <a href="Movies/index.html"  >Videos</a>
         </div>
         <div className="main-nav__item">
-          <a href="More/index.html">About us</a>
+          <a href="Aboutus/index.html">About us</a>
         </div>
         <div className="main-nav__item">
           <a href="More/index.html">More</a>

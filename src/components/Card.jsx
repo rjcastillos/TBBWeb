@@ -30,8 +30,8 @@ const img_prefix  = "src/assets/img/"
          <div className='flex justify-start'>
          {Recipe.Description}
          </div>
-         <div className='refInCard w-max'>
-        <a href={Recipe.Link} target='_blank'>Recipe's details</a><a/>
+         <div className='refInCard'>
+        <a href={Recipe.Link} target='_blank'>Recipe's details</a>
         
          </div>
     </div>

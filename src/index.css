@@ -86,17 +86,7 @@ h2 {
   max-width: 1024px;
   margin: 0 auto;
 }
-.card{
-  border: 1px solid #4b5362;
-  margin : 20px;
-  padding : 10px;
-  background-color:#cdcdcd;
-  border-radius: 10px;
-  min-height: 100px;
-  width: 440px;
-  justify-content: center;
-  flex: wrap;
-}
+
 button{
   border: #4b5362;
   min-height: 20px;

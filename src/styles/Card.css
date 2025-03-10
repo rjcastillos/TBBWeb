@@ -1,0 +1,23 @@
+.refInCard {
+    border-radius: 3px;
+    padding: 2px;
+    min-height: 20px;
+    background-color:var(--MediumColor);
+    width: 25%;
+    justify-content: center;
+    color:whitesmoke;
+    font-size: small;
+
+}
+
+.card{
+    border: 1px solid #4b5362;
+    margin : 20px;
+    padding : 10px;
+    background-color:#cdcdcd;
+    border-radius: 10px;
+    min-height: 100px;
+    width: 440px;
+    justify-content: center;
+    flex: wrap;
+  }
