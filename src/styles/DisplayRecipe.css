@@ -3,3 +3,11 @@
     background-color:var(--LightColor)
 
 }
+.DisplayRecipe_Description{
+    border-radius: 3px;
+    padding: 2px;
+    min-height: 20px;
+    width: 65%;
+    justify-content: center;
+    font-size: small; 
+}

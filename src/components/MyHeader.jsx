@@ -5,7 +5,7 @@ const MyHeader = () => {
     <div className="fixed_header flex bg-[#2483c3] md:bg-[#0959b2]">
       <div className="banner flex place-items-center justify-start">
         <div className="flex">
-          <a href="http://TravelbyBaking.com">
+          <a href="/">
             <img
               src="../src/assets/TBBbanner.svg"
               alt="Travel by Baking http://TravelbyBaking.com"

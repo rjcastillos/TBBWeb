@@ -6,6 +6,7 @@ import './styles/Home.css'
 import './styles/Card.css'
 import { Routes , Route } from 'react-router-dom'
 import MainContent from './MainContent'
+import DisplayRecipe from './components/DisplayRecipe'
 
 
 
@@ -14,6 +15,7 @@ const App = () =>{
     <main className='main-content'>
       <Routes>
         <Route path="/" element={<MainContent/>}/> 
+        <Route path="/:RecipeCodeName" element={<DisplayRecipe/>}/> 
       </Routes>
 
     </main>

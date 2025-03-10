@@ -1,14 +1,21 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
+import MyFooter from './MyFooter'
+import Quote from './Quote'
+import MyHeader from './MyHeader'
 import DATASET from '/Users/ramon/Documents/DocsandMisc/github/projects/TravelByBaking/localworking/allRecipesData.json'
 import { h3 } from 'framer-motion/client'
 import MyConfig from '../Configuration.json'
 import getRecipesbyCategories from '../getRecipesbyCategory.js'
+import '../styles/DisplayRecipe.css'
 
 const featuredCategories = MyConfig['featuredCategories']
 const fetchedImages =[]
 
 const DisplayRecipe = () => {
-  const KEYS = Object.keys(DATASET)
+const KEYS = Object.keys(DATASET)
+
+const { RecipeCodeName } = useParams()
 
   const slideImages = () => {
     console.log("Was called")
@@ -19,29 +26,24 @@ const DisplayRecipe = () => {
   }
 
   return (
-    <div className='recipe-fixed flex Home justify-start flex-col w-[50%]'>
-     <div className='flex flex-col'>
-      <h1 className='text-3xl'>Recipe Details:</h1>
-      </div>
-      <div className='flex-col'>
-        <span>Featured Recipes : {featuredCategories}</span>
-       {KEYS.map((key)=> (
- /*        <p> Key = {key} type of Title {typeof DATASET[key]['ThubNamils'] },lenght {DATASET[key]['ThumbNails'].length} : ThumbNails  {DATASET[key]['ThumbNails']} </p> */
-        <ul>
-          {key}
-          {DATASET[key]['ThumbNails'].map(value =>
-            (
-              
-                  <li>
-                     {value}
-                 </li>
-            )
+    <div className='Recipe-detail'>
+      <MyHeader/>
+      <Quote/>
            
-          )}
-        </ul>
-      ))}
+     <div className='flex flex-col'>
+      <h1 className='text-3xl'>{DATASET[RecipeCodeName]['Title']}</h1>
       </div>
-      <h1><strong>{getRecipesbyCategories(1,"featured")}</strong></h1>
+      <div className='flex-col text-sm'>
+        <div className='DisplayRecipe_ShortDescription'>
+          <strong>Short Description: </strong><br/> 
+          {DATASET[RecipeCodeName]['ShortDescription']}
+        </div>
+        <div className='DisplayRecipe_Description'>
+          <strong>Description: </strong><br/> 
+          {DATASET[RecipeCodeName]['Description']}
+        </div>
+      </div>
+      <MyFooter/>
     </div>
   )
 }

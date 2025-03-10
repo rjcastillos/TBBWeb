@@ -31,7 +31,7 @@ const img_prefix  = "src/assets/img/"
          {Recipe.Description}
          </div>
          <div className='refInCard'>
-        <a href={Recipe.Link} target='_blank'>Recipe's details</a>
+        <a href={`/${Recipe.RecipeCodeName}`} target='_blank'>Recipe's details</a>
         
          </div>
     </div>

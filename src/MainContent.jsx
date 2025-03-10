@@ -14,11 +14,7 @@ const MainContent = () => {
             <MyHeader/>
             <Quote/>
             <ImageSlider/>
-            <div className='flex justify-evenly'>
             <Home/>
-            <DisplayRecipe/>
-            </div>
-            {/* <OpenCards/>  */}
             <MyFooter/>
         </div>
     )
