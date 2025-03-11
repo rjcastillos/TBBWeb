@@ -3,12 +3,14 @@ import { useParams } from 'react-router-dom'
 import MyFooter from './MyFooter'
 import Quote from './Quote'
 import MyHeader from './MyHeader'
+import getRecipesbyCategories from '../getRecipesbyCategory.js'
 import DATASET from '/Users/ramon/Documents/DocsandMisc/github/projects/TravelByBaking/localworking/allRecipesData.json'
 import { h3, li } from 'framer-motion/client'
 import MyConfig from '../Configuration.json'
-import getRecipesbyCategories from '../getRecipesbyCategory.js'
 import '../styles/DisplayRecipe.css'
 import { span } from 'framer-motion/m'
+import MiniSlider from './MiniSlider'
+
 
 const featuredCategories = MyConfig['featuredCategories']
 var fetchedImages =[]
@@ -20,10 +22,10 @@ const KEYS = Object.keys(DATASET)
 
 const { RecipeCodeName } = useParams()
 
-  const slideImages = (key) => {
-    fetchedImages=[]
-    DATASET[key]['ThumbNails'].map( thumbnail => fetchedImages.push(thumbnail) )
-    return fetchedImages
+const getThumbnailsbyRecipe = (key) => {
+      fetchedImages=[]
+      DATASET[key]['ThumbNails'].map( thumbnail => fetchedImages.push(thumbnail) )
+      return fetchedImages
   }
 
   function getArray (listof){
@@ -32,7 +34,6 @@ const { RecipeCodeName } = useParams()
           newlist = listof[0]
           } else if (Array.isArray(listof)) {newlist = listof}
                     else if (typeof listof === "string") {newlist.push(listof)}
-      console.log(`Type = ${typeof newlist} for ${listof}`)
       return newlist 
   }
 
@@ -110,7 +111,7 @@ const { RecipeCodeName } = useParams()
         <div className='DisplayRecipe_ThumbNails'>
           <ul className='ul_thumbnail'> 
             ThumbNails:       
-            {slideImages(RecipeCodeName).map(
+            {getThumbnailsbyRecipe(RecipeCodeName).map(
              thumbnail =>
                 <li>
                   {thumbnail}
@@ -142,7 +143,7 @@ const { RecipeCodeName } = useParams()
           )}
           </ul>
         </div>
-
+      <MiniSlider sliderList={getRecipesbyCategories(1,DATASET[RecipeCodeName]['Categories'])}/>
       </div>
       <MyFooter/>
     </div>

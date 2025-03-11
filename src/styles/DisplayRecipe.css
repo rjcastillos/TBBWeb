@@ -20,6 +20,7 @@
     padding:  .5rem;
     min-height: 20px;
     max-width:  65%;
+    white-space: pre-wrap;
     justify-content: center;
     font-size: small;
 }
@@ -31,6 +32,9 @@
 
 .DisplayRecipe_Directions{
     padding: .5rem;
+    max-width:  65%;
+    justify-content: center;
+    font-size: small;
     white-space: pre-wrap;
 
 }
