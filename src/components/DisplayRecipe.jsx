@@ -11,7 +11,7 @@ import '../styles/DisplayRecipe.css'
 import { span } from 'framer-motion/m'
 
 const featuredCategories = MyConfig['featuredCategories']
-const fetchedImages =[]
+var fetchedImages =[]
 
 var newlist = []
 
@@ -21,17 +21,18 @@ const KEYS = Object.keys(DATASET)
 const { RecipeCodeName } = useParams()
 
   const slideImages = (key) => {
-    console.log("Was called")
-    
+    fetchedImages=[]
     DATASET[key]['ThumbNails'].map( thumbnail => fetchedImages.push(thumbnail) )
-  
     return fetchedImages
   }
 
   function getArray (listof){
+      newlist=[]
       if (Array.isArray(listof[0])) {
-        newlist = listof[0]
-      } else {newlist = listof}
+          newlist = listof[0]
+          } else if (Array.isArray(listof)) {newlist = listof}
+                    else if (typeof listof === "string") {newlist.push(listof)}
+      console.log(`Type = ${typeof newlist} for ${listof}`)
       return newlist 
   }
 
