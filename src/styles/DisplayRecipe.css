@@ -3,11 +3,34 @@
     background-color:var(--LightColor)
 
 }
+
+.DisplayRecipe_ShortDescription {
+    padding: .5rem;
+}
+
+.DisplayRecipe_Categories{
+    padding: .5rem;
+
+}
+.ul_basic{
+    font-weight: 700;
+}
 .DisplayRecipe_Description{
     border-radius: 3px;
-    padding: 2px;
+    padding:  .5rem;
     min-height: 20px;
-    width: 65%;
+    max-width:  65%;
     justify-content: center;
-    font-size: small; 
+    font-size: small;
+}
+
+.DisplayRecipe_Ingredients{
+    padding: .5rem;
+    white-space: pre-wrap;
+}
+
+.DisplayRecipe_Directions{
+    padding: .5rem .5rem 10rem .5rem;
+    white-space: pre-wrap;
+
 }
