@@ -8,10 +8,11 @@ import { h3, li } from 'framer-motion/client'
 import MyConfig from '../Configuration.json'
 import getRecipesbyCategories from '../getRecipesbyCategory.js'
 import '../styles/DisplayRecipe.css'
+import { span } from 'framer-motion/m'
 
 const featuredCategories = MyConfig['featuredCategories']
 const fetchedImages =[]
-var A_Ingredients =[]
+
 var newlist = []
 
 const DisplayRecipe = () => {
@@ -19,11 +20,11 @@ const KEYS = Object.keys(DATASET)
 
 const { RecipeCodeName } = useParams()
 
-  const slideImages = () => {
+  const slideImages = (key) => {
     console.log("Was called")
-    KEYS.map((key)=> (
+    
     DATASET[key]['ThumbNails'].map( thumbnail => fetchedImages.push(thumbnail) )
-    ))
+  
     return fetchedImages
   }
 
@@ -40,7 +41,7 @@ const { RecipeCodeName } = useParams()
       <Quote/>
            
      <div className='flex flex-col'>
-      <h1 className='text-3xl'>{DATASET[RecipeCodeName]['Title']}</h1>
+      <h1 className='text-3xl p-0.5'>{DATASET[RecipeCodeName]['Title']}</h1>
       </div>
       <div className='flex-col text-sm mb-[30px]'>
         <div className='DisplayRecipe_ShortDescription'>
@@ -89,6 +90,53 @@ const { RecipeCodeName } = useParams()
             direction =>
             <li>
               {direction}
+            </li>
+          )}
+          </ul>
+        </div>
+
+        <div className='DisplayRecipe_ServingSize'>
+          <ul className='ul_ServingSize'>
+            {Object.keys(DATASET[RecipeCodeName]['ServingSize']).map( 
+              key =>
+          
+            <li>
+              {DATASET[RecipeCodeName]['ServingSize'][key]}
+            </li>
+            )}
+          </ul>
+        </div>
+        <div className='DisplayRecipe_ThumbNails'>
+          <ul className='ul_thumbnail'> 
+            ThumbNails:       
+            {slideImages(RecipeCodeName).map(
+             thumbnail =>
+                <li>
+                  {thumbnail}
+                </li>
+            )}
+          </ul>
+        </div>
+
+        <div className='DisplayRecipe_Equipment'>
+          <ul className='ul_basic'>
+            Equipment:
+          {getArray(DATASET[RecipeCodeName]['Equipment']).map(
+            equipment =>
+            <li>
+              {equipment}
+            </li>
+          )}
+          </ul>
+        </div>
+
+        <div className='DisplayRecipe_Lang'>
+          <ul className='ul_basic'>
+            Languages:
+          {getArray(DATASET[RecipeCodeName]['Lang']).map(
+            lan =>
+            <li>
+              {lan}
             </li>
           )}
           </ul>

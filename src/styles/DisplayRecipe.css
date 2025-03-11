@@ -30,7 +30,26 @@
 }
 
 .DisplayRecipe_Directions{
-    padding: .5rem .5rem 10rem .5rem;
+    padding: .5rem;
     white-space: pre-wrap;
 
+}
+
+.DisplayRecipe_ServingSize{
+    padding: .5rem ;
+}
+
+.DisplayRecipe_ThumbNails{
+    padding: .5rem;
+}
+.ul_thumbnail{
+    font-weight: 500;
+}
+
+.DisplayRecipe_Equipment{
+    padding: .5rem;
+}
+
+.DisplayRecipe_Lang {
+    padding: .5rem .5rem 10rem .5rem;
 }
