@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/MiniSlider.css'
 import MyConfig from '../Configuration.json'
+import { li } from 'framer-motion/client'
 const DEBUG=MyConfig['DEBUG']
 const featuredCategories = MyConfig['featuredCategories']
 const img_prefix  = "src/assets/img/"
@@ -8,13 +9,19 @@ const img_prefix  = "src/assets/img/"
 const imagesPrefix = MyConfig['imagesPrefix']
 
 const MiniSlider = ({sliderList}) => {
+const recipes = JSON.parse(sliderList)
   return (
     <div className='outerframe'>
       <div className='slide'>
-        <ul>
-            <li>
-                {sliderList}
-            </li>
+        <ul className='ul_slide'>
+        {sliderList}
+          {`Received ${recipes.length} recipes from caller`}
+          {recipes.map(
+            recipe =>
+              <li>
+                {recipe["ThumbNail"]+" "+recipe["Category"]}
+              </li>
+          )}
         </ul>
       </div>
     </div>

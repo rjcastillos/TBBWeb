@@ -1,0 +1,26 @@
+
+*,
+*::before
+*::after {
+  box-sizing: border-box ;
+}
+
+:root{
+
+}
+.media-controller{
+    display: flex;
+    width: 125px;
+    overflow-x: scroll;
+    scroll-snap-type: x auto;
+}
+
+.media-element{
+    scroll-snap-align: center;
+    flex-shrink: ;
+    width: 125px;
+    img {
+        width: 125px;
+        height: 70.5px;
+        }
+}

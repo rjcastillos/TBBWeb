@@ -43,7 +43,7 @@ for (var r = 0; r < KEYS.length; r++) {
         if (catList[categoryVal] == undefined) {
             catList[categoryVal]=[]
         }
-        catList[categoryVal].push({"Title":Title,"Link":Link,"ThumbNails":ThumbNails})
+        catList[categoryVal].push({"RecipeCodeName":RecipeCodeName,"Title":Title,"Link":Link,"ThumbNails":ThumbNails})
         if (DEBUG) {console.log(catList[categoryVal])}
     }
 }

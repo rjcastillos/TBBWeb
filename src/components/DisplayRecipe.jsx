@@ -14,8 +14,8 @@ import MiniSlider from './MiniSlider'
 
 const featuredCategories = MyConfig['featuredCategories']
 var fetchedImages =[]
-
 var newlist = []
+var sliderList = []
 
 const DisplayRecipe = () => {
 const KEYS = Object.keys(DATASET)
@@ -35,6 +35,13 @@ const getThumbnailsbyRecipe = (key) => {
           } else if (Array.isArray(listof)) {newlist = listof}
                     else if (typeof listof === "string") {newlist.push(listof)}
       return newlist 
+  }
+  function getPrimarycategory (allCats){
+    var primaryCategory = []
+    var post_allCats = getArray(allCats)
+    primaryCategory.push(post_allCats[0])
+    console.log(`Primary Cat is ${post_allCats[0]}`)
+    return primaryCategory
   }
 
   return (
@@ -143,7 +150,7 @@ const getThumbnailsbyRecipe = (key) => {
           )}
           </ul>
         </div>
-      <MiniSlider sliderList={getRecipesbyCategories(1,DATASET[RecipeCodeName]['Categories'])}/>
+      <MiniSlider sliderList={getRecipesbyCategories(3,getPrimarycategory(DATASET[RecipeCodeName]["Categories"]))}/>
       </div>
       <MyFooter/>
     </div>
