@@ -5,7 +5,7 @@ import Quote from './Quote'
 import MyHeader from './MyHeader'
 import getRecipesbyCategories from '../getRecipesbyCategory.js'
 import DATASET from '/Users/ramon/Documents/DocsandMisc/github/projects/TravelByBaking/localworking/allRecipesData.json'
-import { h3, li } from 'framer-motion/client'
+import { div, h3, img, li } from 'framer-motion/client'
 import MyConfig from '../Configuration.json'
 import '../styles/DisplayRecipe.css'
 import { span } from 'framer-motion/m'
@@ -13,6 +13,7 @@ import MiniSlider from './MiniSlider'
 
 
 const featuredCategories = MyConfig['featuredCategories']
+const img_prefix  = "src/assets/img/"
 var fetchedImages =[]
 var newlist = []
 var sliderList = []
@@ -51,7 +52,21 @@ const getThumbnailsbyRecipe = (key) => {
            
      <div className='flex flex-col'>
       <h1 className='text-3xl p-0.5'>{DATASET[RecipeCodeName]['Title']}</h1>
-      </div>
+    </div>
+
+    <div className='DisplayRecipe_ThumbNails'>
+          <div className='thumbnail-controller'>
+            {getThumbnailsbyRecipe(RecipeCodeName).map(
+              thumbnail =>
+                <div className='thumbnail-element'>
+                  <a href={"/"+RecipeCodeName}> 
+                    <img src={img_prefix+thumbnail} alt={DATASET[RecipeCodeName]['Title']} />
+                  </a>
+                </div>
+            )}
+          </div>
+        </div>
+
       <div className='flex-col text-sm mb-[30px]'>
         <div className='DisplayRecipe_ShortDescription'>
           <ul className='ul_basic'>
@@ -115,17 +130,8 @@ const getThumbnailsbyRecipe = (key) => {
             )}
           </ul>
         </div>
-        <div className='DisplayRecipe_ThumbNails'>
-          <ul className='ul_thumbnail'> 
-            ThumbNails:       
-            {getThumbnailsbyRecipe(RecipeCodeName).map(
-             thumbnail =>
-                <li>
-                  {thumbnail}
-                </li>
-            )}
-          </ul>
-        </div>
+
+
 
         <div className='DisplayRecipe_Equipment'>
           <ul className='ul_basic'>
@@ -150,7 +156,16 @@ const getThumbnailsbyRecipe = (key) => {
           )}
           </ul>
         </div>
+
+        <div className='DisplayRecipe_yt'>
+        <iframe width="560" height="315" src={DATASET[RecipeCodeName]['VideoUrl']['src']} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+
       <MiniSlider sliderList={getRecipesbyCategories(3,getPrimarycategory(DATASET[RecipeCodeName]["Categories"]))}/>
+      </div>
+      <div className='DisplayRecipe_LastElement'>
+          <p></p>
       </div>
       <MyFooter/>
     </div>

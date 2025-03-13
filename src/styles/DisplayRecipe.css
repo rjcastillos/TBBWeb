@@ -15,6 +15,32 @@
 .ul_basic{
     font-weight: 700;
 }
+
+.DisplayRecipe_ThumbNails{
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumbnail-controller{
+    display: flex;
+    width: 120px;
+    gap: 5px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.thumbnail-element{
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    width: 125px;
+    img {
+        width: 125px;
+        height: 70.5px;
+        border-radius: 2px;
+        }
+}
+
 .DisplayRecipe_Description{
     border-radius: 3px;
     padding:  .5rem;
@@ -43,17 +69,18 @@
     padding: .5rem ;
 }
 
-.DisplayRecipe_ThumbNails{
-    padding: .5rem;
-}
-.ul_thumbnail{
-    font-weight: 500;
-}
-
 .DisplayRecipe_Equipment{
     padding: .5rem;
 }
 
 .DisplayRecipe_Lang {
+    padding: .5rem;
+}
+
+.DisplayRecipe_yt{
+    padding: .5rem;
+}
+
+.DisplayRecipe_LastElement {
     padding: .5rem .5rem 10rem .5rem;
 }
