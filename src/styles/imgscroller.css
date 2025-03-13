@@ -10,17 +10,19 @@
 }
 .media-controller{
     display: flex;
-    width: 125px;
+    width: 120px;
+    gap: 5px;
     overflow-x: scroll;
-    scroll-snap-type: x auto;
+    scroll-snap-type: x mandatory;
 }
 
 .media-element{
     scroll-snap-align: center;
-    flex-shrink: ;
+    flex-shrink: 0;
     width: 125px;
     img {
         width: 125px;
         height: 70.5px;
+        border-radius: 2px;
         }
 }
