@@ -7,6 +7,7 @@ import './styles/Card.css'
 import { Routes , Route } from 'react-router-dom'
 import MainContent from './MainContent'
 import DisplayRecipe from './components/DisplayRecipe'
+import RecipesBook from './RecipesBook'
 
 
 
@@ -16,6 +17,7 @@ const App = () =>{
       <Routes>
         <Route path="/" element={<MainContent/>}/> 
         <Route path="/:RecipeCodeName" element={<DisplayRecipe/>}/> 
+        <Route path="/recipes" element={<RecipesBook/>}/> 
       </Routes>
 
     </main>
