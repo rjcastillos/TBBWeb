@@ -16,7 +16,7 @@ const MyHeader = () => {
       </div>
       <div className="flex justify-evenly place-items-center mywidth">
         <div className="main-nav__item">
-          <a href="recipes/index.html" >Recipes</a>
+          <a href="recipes" >Recipes</a>
         </div>
         <div className="main-nav__item">
           <a href="Movies/index.html"  >Videos</a>
