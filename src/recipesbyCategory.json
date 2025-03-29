@@ -1,6 +1,7 @@
 {
     "sweet recipes": [
         {
+            "RecipeCodeName": "almond-cookies",
             "Title": "Almond cookies",
             "Link": "https://travelbybaking.com/almond-cookies/",
             "ThumbNails": [
@@ -8,6 +9,7 @@
             ]
         },
         {
+            "RecipeCodeName": "apple-mousse-cake-with-greek-yoghurt",
             "Title": "Apple mousse cake with Greek yoghurt",
             "Link": "https://travelbybaking.com/apple-mousse-cake-with-greek-yoghurt/",
             "ThumbNails": [
@@ -16,6 +18,7 @@
             ]
         },
         {
+            "RecipeCodeName": "apple-puff-pastry-tarts",
             "Title": "Apple puff pastry tarts",
             "Link": "https://travelbybaking.com/apple-puff-pastry-tarts/",
             "ThumbNails": [
@@ -23,6 +26,7 @@
             ]
         },
         {
+            "RecipeCodeName": "apple-sheet-cake-with-cottage-cheese-latvian-platsmaize",
             "Title": "Apple sheet cake with cottage cheese (Latvian plātsmaize)",
             "Link": "https://travelbybaking.com/apple-sheet-cake-with-cottage-cheese-latvian-platsmaize/",
             "ThumbNails": [
@@ -30,6 +34,7 @@
             ]
         },
         {
+            "RecipeCodeName": "calla-flower-cookies",
             "Title": "Calla flower cookies",
             "Link": "https://travelbybaking.com/calla-flower-cookies/",
             "ThumbNails": [
@@ -37,6 +42,7 @@
             ]
         },
         {
+            "RecipeCodeName": "carrot-sheet-cake-latvian-burkanu-platsmaize",
             "Title": "Carrot sheet cake (Latvian burkānu plātsmaize)",
             "Link": "https://travelbybaking.com/carrot-sheet-cake-latvian-burkanu-platsmaize/",
             "ThumbNails": [
@@ -44,6 +50,7 @@
             ]
         },
         {
+            "RecipeCodeName": "chocolate-flan",
             "Title": "Chocolate flan",
             "Link": "https://travelbybaking.com/chocolate-flan/",
             "ThumbNails": [
@@ -51,6 +58,7 @@
             ]
         },
         {
+            "RecipeCodeName": "chocolate-lava-cake",
             "Title": "Chocolate lava cake",
             "Link": "https://travelbybaking.com/chocolate-lava-cake/",
             "ThumbNails": [
@@ -58,6 +66,7 @@
             ]
         },
         {
+            "RecipeCodeName": "cinnamon-rolls",
             "Title": "Cinnamon rolls",
             "Link": "https://travelbybaking.com/cinnamon-rolls/",
             "ThumbNails": [
@@ -65,6 +74,7 @@
             ]
         },
         {
+            "RecipeCodeName": "cottage-cheese-and-carrot-dessert",
             "Title": "Cottage cheese and carrot dessert",
             "Link": "https://travelbybaking.com/cottage-cheese-and-carrot-dessert/",
             "ThumbNails": [
@@ -73,6 +83,7 @@
             ]
         },
         {
+            "RecipeCodeName": "cream-puffs",
             "Title": "Cream puffs",
             "Link": "https://travelbybaking.com/cream-puffs/",
             "ThumbNails": [
@@ -80,6 +91,7 @@
             ]
         },
         {
+            "RecipeCodeName": "crispy-gingerbread-cookies-with-honey",
             "Title": "Crispy gingerbread cookies with honey",
             "Link": "https://travelbybaking.com/crispy-gingerbread-cookies-with-honey/",
             "ThumbNails": [
@@ -87,6 +99,7 @@
             ]
         },
         {
+            "RecipeCodeName": "danish-leftover-cake-student-bread",
             "Title": "Danish leftover cake “Student bread”",
             "Link": "https://travelbybaking.com/danish-leftover-cake-student-bread/",
             "ThumbNails": [
@@ -94,6 +107,7 @@
             ]
         },
         {
+            "RecipeCodeName": "delicious-and-moist-pineapple-upside-down-cake",
             "Title": "Delicious and moist pineapple upside-down cake",
             "Link": "https://travelbybaking.com/delicious-and-moist-pineapple-upside-down-cake/",
             "ThumbNails": [
@@ -101,6 +115,7 @@
             ]
         },
         {
+            "RecipeCodeName": "delicious-chocolate-crackle-cookies",
             "Title": "Delicious chocolate crackle cookies",
             "Link": "https://travelbybaking.com/delicious-chocolate-crackle-cookies/",
             "ThumbNails": [
@@ -108,6 +123,7 @@
             ]
         },
         {
+            "RecipeCodeName": "french-apple-cake",
             "Title": "French apple cake",
             "Link": "https://travelbybaking.com/french-apple-cake/",
             "ThumbNails": [
@@ -115,6 +131,7 @@
             ]
         },
         {
+            "RecipeCodeName": "french-chocolate-cake",
             "Title": "French chocolate cake",
             "Link": "https://travelbybaking.com/french-chocolate-cake/",
             "ThumbNails": [
@@ -122,6 +139,7 @@
             ]
         },
         {
+            "RecipeCodeName": "german-style-orange-cheesecake",
             "Title": "German style orange cheesecake",
             "Link": "https://travelbybaking.com/german-style-orange-cheesecake/",
             "ThumbNails": [
@@ -129,6 +147,7 @@
             ]
         },
         {
+            "RecipeCodeName": "homemade-bundt-cake-with-condensed-milk",
             "Title": "Homemade bundt cake with condensed milk",
             "Link": "https://travelbybaking.com/homemade-bundt-cake-with-condensed-milk/",
             "ThumbNails": [
@@ -136,6 +155,7 @@
             ]
         },
         {
+            "RecipeCodeName": "lemon-magdalenas-spanish-muffins",
             "Title": "Lemon magdalenas (Spanish muffins)",
             "Link": "https://travelbybaking.com/lemon-magdalenas-spanish-muffins/",
             "ThumbNails": [
@@ -143,6 +163,7 @@
             ]
         },
         {
+            "RecipeCodeName": "lemon-pudding-cake",
             "Title": "Lemon pudding cake",
             "Link": "https://travelbybaking.com/lemon-pudding-cake/",
             "ThumbNails": [
@@ -150,6 +171,7 @@
             ]
         },
         {
+            "RecipeCodeName": "lucky-new-years-cake",
             "Title": "Lucky New Year’s cake",
             "Link": "https://travelbybaking.com/lucky-new-years-cake/",
             "ThumbNails": [
@@ -157,6 +179,7 @@
             ]
         },
         {
+            "RecipeCodeName": "madeleines",
             "Title": "French Madeleines",
             "Link": "https://travelbybaking.com/madeleines/",
             "ThumbNails": [
@@ -164,6 +187,7 @@
             ]
         },
         {
+            "RecipeCodeName": "no-bake-chocolate-cake-chocolate-salami",
             "Title": "No bake chocolate cake – chocolate salami",
             "Link": "https://travelbybaking.com/no-bake-chocolate-cake-chocolate-salami/",
             "ThumbNails": [
@@ -171,6 +195,7 @@
             ]
         },
         {
+            "RecipeCodeName": "pastry-cream-buns",
             "Title": "Pastry Cream Buns",
             "Link": "https://travelbybaking.com/pastry-cream-buns/",
             "ThumbNails": [
@@ -178,6 +203,7 @@
             ]
         },
         {
+            "RecipeCodeName": "roscon-de-reyes-three-kings-cake",
             "Title": "Roscon de Reyes (Three Kings cake)",
             "Link": "https://travelbybaking.com/roscon-de-reyes-three-kings-cake/",
             "ThumbNails": [
@@ -185,6 +211,7 @@
             ]
         },
         {
+            "RecipeCodeName": "sandwich-cookies-with-jam-without-wheat-flour",
             "Title": "Sandwich cookies with jam (without wheat flour)",
             "Link": "https://travelbybaking.com/sandwich-cookies-with-jam-without-wheat-flour/",
             "ThumbNails": [
@@ -192,6 +219,7 @@
             ]
         },
         {
+            "RecipeCodeName": "stollen-bites-stollenkonfekt",
             "Title": "Stollen bites (Stollenkonfekt)",
             "Link": "https://travelbybaking.com/stollen-bites-stollenkonfekt/",
             "ThumbNails": [
@@ -199,6 +227,7 @@
             ]
         },
         {
+            "RecipeCodeName": "strawberry-flaugnarde-clafoutis",
             "Title": "Strawberry flaugnarde (clafoutis)",
             "Link": "https://travelbybaking.com/strawberry-flaugnarde-clafoutis/",
             "ThumbNails": [
@@ -206,6 +235,7 @@
             ]
         },
         {
+            "RecipeCodeName": "strawberry-roll-cake",
             "Title": "Strawberry roll cake",
             "Link": "https://travelbybaking.com/strawberry-roll-cake/",
             "ThumbNails": [
@@ -213,6 +243,7 @@
             ]
         },
         {
+            "RecipeCodeName": "sweet-and-soft-homemade-pretzel-or-latvian-klingeris",
             "Title": "Sweet and soft homemade pretzel or Latvian klinģeris",
             "Link": "https://travelbybaking.com/sweet-and-soft-homemade-pretzel-or-latvian-klingeris/",
             "ThumbNails": [
@@ -220,6 +251,7 @@
             ]
         },
         {
+            "RecipeCodeName": "sweet-light-and-fluffy-magdalenas-spanish-muffins",
             "Title": "Sweet, light and fluffy Magdalenas (Spanish muffins)",
             "Link": "https://travelbybaking.com/sweet-light-and-fluffy-magdalenas-spanish-muffins/",
             "ThumbNails": [
@@ -227,6 +259,7 @@
             ]
         },
         {
+            "RecipeCodeName": "torrijas-spanish-toast-bread-pudding",
             "Title": "Torrijas (Spanish toast / bread pudding)",
             "Link": "https://travelbybaking.com/torrijas-spanish-toast-bread-pudding/",
             "ThumbNails": [
@@ -234,6 +267,7 @@
             ]
         },
         {
+            "RecipeCodeName": "valencia-orange-cake",
             "Title": "Valencia orange cake",
             "Link": "https://travelbybaking.com/valencia-orange-cake/",
             "ThumbNails": [
@@ -243,6 +277,7 @@
     ],
     "cookies": [
         {
+            "RecipeCodeName": "almond-cookies",
             "Title": "Almond cookies",
             "Link": "https://travelbybaking.com/almond-cookies/",
             "ThumbNails": [
@@ -250,6 +285,7 @@
             ]
         },
         {
+            "RecipeCodeName": "buttery-and-crumbly-cheese-cookies",
             "Title": "Buttery and crumbly cheese cookies",
             "Link": "https://travelbybaking.com/buttery-and-crumbly-cheese-cookies/",
             "ThumbNails": [
@@ -257,6 +293,7 @@
             ]
         },
         {
+            "RecipeCodeName": "calla-flower-cookies",
             "Title": "Calla flower cookies",
             "Link": "https://travelbybaking.com/calla-flower-cookies/",
             "ThumbNails": [
@@ -264,6 +301,7 @@
             ]
         },
         {
+            "RecipeCodeName": "crispy-gingerbread-cookies-with-honey",
             "Title": "Crispy gingerbread cookies with honey",
             "Link": "https://travelbybaking.com/crispy-gingerbread-cookies-with-honey/",
             "ThumbNails": [
@@ -271,6 +309,7 @@
             ]
         },
         {
+            "RecipeCodeName": "delicious-chocolate-crackle-cookies",
             "Title": "Delicious chocolate crackle cookies",
             "Link": "https://travelbybaking.com/delicious-chocolate-crackle-cookies/",
             "ThumbNails": [
@@ -278,6 +317,7 @@
             ]
         },
         {
+            "RecipeCodeName": "sandwich-cookies-with-jam-without-wheat-flour",
             "Title": "Sandwich cookies with jam (without wheat flour)",
             "Link": "https://travelbybaking.com/sandwich-cookies-with-jam-without-wheat-flour/",
             "ThumbNails": [
@@ -285,6 +325,7 @@
             ]
         },
         {
+            "RecipeCodeName": "stollen-bites-stollenkonfekt",
             "Title": "Stollen bites (Stollenkonfekt)",
             "Link": "https://travelbybaking.com/stollen-bites-stollenkonfekt/",
             "ThumbNails": [
@@ -294,6 +335,7 @@
     ],
     "recipes to bake": [
         {
+            "RecipeCodeName": "almond-cookies",
             "Title": "Almond cookies",
             "Link": "https://travelbybaking.com/almond-cookies/",
             "ThumbNails": [
@@ -301,6 +343,7 @@
             ]
         },
         {
+            "RecipeCodeName": "apple-mousse-cake-with-greek-yoghurt",
             "Title": "Apple mousse cake with Greek yoghurt",
             "Link": "https://travelbybaking.com/apple-mousse-cake-with-greek-yoghurt/",
             "ThumbNails": [
@@ -309,6 +352,7 @@
             ]
         },
         {
+            "RecipeCodeName": "apple-puff-pastry-tarts",
             "Title": "Apple puff pastry tarts",
             "Link": "https://travelbybaking.com/apple-puff-pastry-tarts/",
             "ThumbNails": [
@@ -316,6 +360,7 @@
             ]
         },
         {
+            "RecipeCodeName": "apple-sheet-cake-with-cottage-cheese-latvian-platsmaize",
             "Title": "Apple sheet cake with cottage cheese (Latvian plātsmaize)",
             "Link": "https://travelbybaking.com/apple-sheet-cake-with-cottage-cheese-latvian-platsmaize/",
             "ThumbNails": [
@@ -323,6 +368,7 @@
             ]
         },
         {
+            "RecipeCodeName": "calla-flower-cookies",
             "Title": "Calla flower cookies",
             "Link": "https://travelbybaking.com/calla-flower-cookies/",
             "ThumbNails": [
@@ -330,6 +376,7 @@
             ]
         },
         {
+            "RecipeCodeName": "carrot-sheet-cake-latvian-burkanu-platsmaize",
             "Title": "Carrot sheet cake (Latvian burkānu plātsmaize)",
             "Link": "https://travelbybaking.com/carrot-sheet-cake-latvian-burkanu-platsmaize/",
             "ThumbNails": [
@@ -337,6 +384,7 @@
             ]
         },
         {
+            "RecipeCodeName": "chocolate-lava-cake",
             "Title": "Chocolate lava cake",
             "Link": "https://travelbybaking.com/chocolate-lava-cake/",
             "ThumbNails": [
@@ -344,6 +392,7 @@
             ]
         },
         {
+            "RecipeCodeName": "cinnamon-rolls",
             "Title": "Cinnamon rolls",
             "Link": "https://travelbybaking.com/cinnamon-rolls/",
             "ThumbNails": [
@@ -351,6 +400,7 @@
             ]
         },
         {
+            "RecipeCodeName": "cottage-cheese-and-carrot-dessert",
             "Title": "Cottage cheese and carrot dessert",
             "Link": "https://travelbybaking.com/cottage-cheese-and-carrot-dessert/",
             "ThumbNails": [
@@ -359,6 +409,7 @@
             ]
         },
         {
+            "RecipeCodeName": "cream-puffs",
             "Title": "Cream puffs",
             "Link": "https://travelbybaking.com/cream-puffs/",
             "ThumbNails": [
@@ -366,6 +417,7 @@
             ]
         },
         {
+            "RecipeCodeName": "crispy-gingerbread-cookies-with-honey",
             "Title": "Crispy gingerbread cookies with honey",
             "Link": "https://travelbybaking.com/crispy-gingerbread-cookies-with-honey/",
             "ThumbNails": [
@@ -373,6 +425,7 @@
             ]
         },
         {
+            "RecipeCodeName": "danish-leftover-cake-student-bread",
             "Title": "Danish leftover cake “Student bread”",
             "Link": "https://travelbybaking.com/danish-leftover-cake-student-bread/",
             "ThumbNails": [
@@ -380,6 +433,7 @@
             ]
         },
         {
+            "RecipeCodeName": "delicious-and-moist-pineapple-upside-down-cake",
             "Title": "Delicious and moist pineapple upside-down cake",
             "Link": "https://travelbybaking.com/delicious-and-moist-pineapple-upside-down-cake/",
             "ThumbNails": [
@@ -387,6 +441,7 @@
             ]
         },
         {
+            "RecipeCodeName": "delicious-chocolate-crackle-cookies",
             "Title": "Delicious chocolate crackle cookies",
             "Link": "https://travelbybaking.com/delicious-chocolate-crackle-cookies/",
             "ThumbNails": [
@@ -394,6 +449,7 @@
             ]
         },
         {
+            "RecipeCodeName": "french-apple-cake",
             "Title": "French apple cake",
             "Link": "https://travelbybaking.com/french-apple-cake/",
             "ThumbNails": [
@@ -401,6 +457,7 @@
             ]
         },
         {
+            "RecipeCodeName": "french-chocolate-cake",
             "Title": "French chocolate cake",
             "Link": "https://travelbybaking.com/french-chocolate-cake/",
             "ThumbNails": [
@@ -408,6 +465,7 @@
             ]
         },
         {
+            "RecipeCodeName": "german-style-orange-cheesecake",
             "Title": "German style orange cheesecake",
             "Link": "https://travelbybaking.com/german-style-orange-cheesecake/",
             "ThumbNails": [
@@ -415,6 +473,7 @@
             ]
         },
         {
+            "RecipeCodeName": "homemade-bundt-cake-with-condensed-milk",
             "Title": "Homemade bundt cake with condensed milk",
             "Link": "https://travelbybaking.com/homemade-bundt-cake-with-condensed-milk/",
             "ThumbNails": [
@@ -422,6 +481,7 @@
             ]
         },
         {
+            "RecipeCodeName": "lemon-magdalenas-spanish-muffins",
             "Title": "Lemon magdalenas (Spanish muffins)",
             "Link": "https://travelbybaking.com/lemon-magdalenas-spanish-muffins/",
             "ThumbNails": [
@@ -429,6 +489,7 @@
             ]
         },
         {
+            "RecipeCodeName": "lemon-pudding-cake",
             "Title": "Lemon pudding cake",
             "Link": "https://travelbybaking.com/lemon-pudding-cake/",
             "ThumbNails": [
@@ -436,6 +497,7 @@
             ]
         },
         {
+            "RecipeCodeName": "lucky-new-years-cake",
             "Title": "Lucky New Year’s cake",
             "Link": "https://travelbybaking.com/lucky-new-years-cake/",
             "ThumbNails": [
@@ -443,6 +505,7 @@
             ]
         },
         {
+            "RecipeCodeName": "madeleines",
             "Title": "French Madeleines",
             "Link": "https://travelbybaking.com/madeleines/",
             "ThumbNails": [
@@ -450,6 +513,7 @@
             ]
         },
         {
+            "RecipeCodeName": "pastry-cream-buns",
             "Title": "Pastry Cream Buns",
             "Link": "https://travelbybaking.com/pastry-cream-buns/",
             "ThumbNails": [
@@ -457,6 +521,7 @@
             ]
         },
         {
+            "RecipeCodeName": "roscon-de-reyes-three-kings-cake",
             "Title": "Roscon de Reyes (Three Kings cake)",
             "Link": "https://travelbybaking.com/roscon-de-reyes-three-kings-cake/",
             "ThumbNails": [
@@ -464,6 +529,7 @@
             ]
         },
         {
+            "RecipeCodeName": "sandwich-cookies-with-jam-without-wheat-flour",
             "Title": "Sandwich cookies with jam (without wheat flour)",
             "Link": "https://travelbybaking.com/sandwich-cookies-with-jam-without-wheat-flour/",
             "ThumbNails": [
@@ -471,6 +537,7 @@
             ]
         },
         {
+            "RecipeCodeName": "stollen-bites-stollenkonfekt",
             "Title": "Stollen bites (Stollenkonfekt)",
             "Link": "https://travelbybaking.com/stollen-bites-stollenkonfekt/",
             "ThumbNails": [
@@ -478,6 +545,7 @@
             ]
         },
         {
+            "RecipeCodeName": "strawberry-flaugnarde-clafoutis",
             "Title": "Strawberry flaugnarde (clafoutis)",
             "Link": "https://travelbybaking.com/strawberry-flaugnarde-clafoutis/",
             "ThumbNails": [
@@ -485,6 +553,7 @@
             ]
         },
         {
+            "RecipeCodeName": "strawberry-roll-cake",
             "Title": "Strawberry roll cake",
             "Link": "https://travelbybaking.com/strawberry-roll-cake/",
             "ThumbNails": [
@@ -492,6 +561,7 @@
             ]
         },
         {
+            "RecipeCodeName": "sweet-and-soft-homemade-pretzel-or-latvian-klingeris",
             "Title": "Sweet and soft homemade pretzel or Latvian klinģeris",
             "Link": "https://travelbybaking.com/sweet-and-soft-homemade-pretzel-or-latvian-klingeris/",
             "ThumbNails": [
@@ -499,6 +569,7 @@
             ]
         },
         {
+            "RecipeCodeName": "sweet-light-and-fluffy-magdalenas-spanish-muffins",
             "Title": "Sweet, light and fluffy Magdalenas (Spanish muffins)",
             "Link": "https://travelbybaking.com/sweet-light-and-fluffy-magdalenas-spanish-muffins/",
             "ThumbNails": [
@@ -506,6 +577,7 @@
             ]
         },
         {
+            "RecipeCodeName": "valencia-orange-cake",
             "Title": "Valencia orange cake",
             "Link": "https://travelbybaking.com/valencia-orange-cake/",
             "ThumbNails": [
@@ -515,6 +587,7 @@
     ],
     "cakes": [
         {
+            "RecipeCodeName": "apple-mousse-cake-with-greek-yoghurt",
             "Title": "Apple mousse cake with Greek yoghurt",
             "Link": "https://travelbybaking.com/apple-mousse-cake-with-greek-yoghurt/",
             "ThumbNails": [
@@ -523,6 +596,7 @@
             ]
         },
         {
+            "RecipeCodeName": "chocolate-flan",
             "Title": "Chocolate flan",
             "Link": "https://travelbybaking.com/chocolate-flan/",
             "ThumbNails": [
@@ -530,6 +604,7 @@
             ]
         },
         {
+            "RecipeCodeName": "chocolate-lava-cake",
             "Title": "Chocolate lava cake",
             "Link": "https://travelbybaking.com/chocolate-lava-cake/",
             "ThumbNails": [
@@ -537,6 +612,7 @@
             ]
         },
         {
+            "RecipeCodeName": "delicious-and-moist-pineapple-upside-down-cake",
             "Title": "Delicious and moist pineapple upside-down cake",
             "Link": "https://travelbybaking.com/delicious-and-moist-pineapple-upside-down-cake/",
             "ThumbNails": [
@@ -544,6 +620,7 @@
             ]
         },
         {
+            "RecipeCodeName": "french-apple-cake",
             "Title": "French apple cake",
             "Link": "https://travelbybaking.com/french-apple-cake/",
             "ThumbNails": [
@@ -551,6 +628,7 @@
             ]
         },
         {
+            "RecipeCodeName": "french-chocolate-cake",
             "Title": "French chocolate cake",
             "Link": "https://travelbybaking.com/french-chocolate-cake/",
             "ThumbNails": [
@@ -558,6 +636,7 @@
             ]
         },
         {
+            "RecipeCodeName": "german-style-orange-cheesecake",
             "Title": "German style orange cheesecake",
             "Link": "https://travelbybaking.com/german-style-orange-cheesecake/",
             "ThumbNails": [
@@ -565,6 +644,7 @@
             ]
         },
         {
+            "RecipeCodeName": "homemade-bundt-cake-with-condensed-milk",
             "Title": "Homemade bundt cake with condensed milk",
             "Link": "https://travelbybaking.com/homemade-bundt-cake-with-condensed-milk/",
             "ThumbNails": [
@@ -572,6 +652,7 @@
             ]
         },
         {
+            "RecipeCodeName": "lemon-pudding-cake",
             "Title": "Lemon pudding cake",
             "Link": "https://travelbybaking.com/lemon-pudding-cake/",
             "ThumbNails": [
@@ -579,6 +660,7 @@
             ]
         },
         {
+            "RecipeCodeName": "lucky-new-years-cake",
             "Title": "Lucky New Year’s cake",
             "Link": "https://travelbybaking.com/lucky-new-years-cake/",
             "ThumbNails": [
@@ -586,6 +668,7 @@
             ]
         },
         {
+            "RecipeCodeName": "roscon-de-reyes-three-kings-cake",
             "Title": "Roscon de Reyes (Three Kings cake)",
             "Link": "https://travelbybaking.com/roscon-de-reyes-three-kings-cake/",
             "ThumbNails": [
@@ -593,6 +676,7 @@
             ]
         },
         {
+            "RecipeCodeName": "strawberry-roll-cake",
             "Title": "Strawberry roll cake",
             "Link": "https://travelbybaking.com/strawberry-roll-cake/",
             "ThumbNails": [
@@ -600,6 +684,7 @@
             ]
         },
         {
+            "RecipeCodeName": "sweet-and-soft-homemade-pretzel-or-latvian-klingeris",
             "Title": "Sweet and soft homemade pretzel or Latvian klinģeris",
             "Link": "https://travelbybaking.com/sweet-and-soft-homemade-pretzel-or-latvian-klingeris/",
             "ThumbNails": [
@@ -607,6 +692,7 @@
             ]
         },
         {
+            "RecipeCodeName": "valencia-orange-cake",
             "Title": "Valencia orange cake",
             "Link": "https://travelbybaking.com/valencia-orange-cake/",
             "ThumbNails": [
@@ -616,6 +702,7 @@
     ],
     "pastries": [
         {
+            "RecipeCodeName": "apple-puff-pastry-tarts",
             "Title": "Apple puff pastry tarts",
             "Link": "https://travelbybaking.com/apple-puff-pastry-tarts/",
             "ThumbNails": [
@@ -623,6 +710,7 @@
             ]
         },
         {
+            "RecipeCodeName": "cinnamon-rolls",
             "Title": "Cinnamon rolls",
             "Link": "https://travelbybaking.com/cinnamon-rolls/",
             "ThumbNails": [
@@ -630,6 +718,7 @@
             ]
         },
         {
+            "RecipeCodeName": "cream-puffs",
             "Title": "Cream puffs",
             "Link": "https://travelbybaking.com/cream-puffs/",
             "ThumbNails": [
@@ -637,6 +726,7 @@
             ]
         },
         {
+            "RecipeCodeName": "lemon-magdalenas-spanish-muffins",
             "Title": "Lemon magdalenas (Spanish muffins)",
             "Link": "https://travelbybaking.com/lemon-magdalenas-spanish-muffins/",
             "ThumbNails": [
@@ -644,6 +734,7 @@
             ]
         },
         {
+            "RecipeCodeName": "madeleines",
             "Title": "French Madeleines",
             "Link": "https://travelbybaking.com/madeleines/",
             "ThumbNails": [
@@ -651,6 +742,7 @@
             ]
         },
         {
+            "RecipeCodeName": "pastry-cream-buns",
             "Title": "Pastry Cream Buns",
             "Link": "https://travelbybaking.com/pastry-cream-buns/",
             "ThumbNails": [
@@ -658,6 +750,7 @@
             ]
         },
         {
+            "RecipeCodeName": "sweet-light-and-fluffy-magdalenas-spanish-muffins",
             "Title": "Sweet, light and fluffy Magdalenas (Spanish muffins)",
             "Link": "https://travelbybaking.com/sweet-light-and-fluffy-magdalenas-spanish-muffins/",
             "ThumbNails": [
@@ -667,6 +760,7 @@
     ],
     "recipes with puff pastry": [
         {
+            "RecipeCodeName": "apple-puff-pastry-tarts",
             "Title": "Apple puff pastry tarts",
             "Link": "https://travelbybaking.com/apple-puff-pastry-tarts/",
             "ThumbNails": [
@@ -674,6 +768,7 @@
             ]
         },
         {
+            "RecipeCodeName": "parsley-pesto-mini-tarts",
             "Title": "Parsley pesto mini tarts",
             "Link": "https://travelbybaking.com/parsley-pesto-mini-tarts/",
             "ThumbNails": [
@@ -681,6 +776,7 @@
             ]
         },
         {
+            "RecipeCodeName": "potato-and-leek-hand-pies",
             "Title": "Potato and leek hand pies",
             "Link": "https://travelbybaking.com/potato-and-leek-hand-pies/",
             "ThumbNails": [
@@ -688,6 +784,7 @@
             ]
         },
         {
+            "RecipeCodeName": "spinach-tart-with-puff-pastry",
             "Title": "Spinach tart with puff pastry",
             "Link": "https://travelbybaking.com/spinach-tart-with-puff-pastry/",
             "ThumbNails": [
@@ -695,6 +792,7 @@
             ]
         },
         {
+            "RecipeCodeName": "leek-tart-with-puff-pastry",
             "Title": "Leek tart with puff pastry",
             "Link": "https://travelbybaking.com/leek-tart-with-puff-pastry/",
             "ThumbNails": [
@@ -704,6 +802,7 @@
     ],
     "sheet cakes": [
         {
+            "RecipeCodeName": "apple-sheet-cake-with-cottage-cheese-latvian-platsmaize",
             "Title": "Apple sheet cake with cottage cheese (Latvian plātsmaize)",
             "Link": "https://travelbybaking.com/apple-sheet-cake-with-cottage-cheese-latvian-platsmaize/",
             "ThumbNails": [
@@ -711,6 +810,7 @@
             ]
         },
         {
+            "RecipeCodeName": "carrot-sheet-cake-latvian-burkanu-platsmaize",
             "Title": "Carrot sheet cake (Latvian burkānu plātsmaize)",
             "Link": "https://travelbybaking.com/carrot-sheet-cake-latvian-burkanu-platsmaize/",
             "ThumbNails": [
@@ -718,6 +818,7 @@
             ]
         },
         {
+            "RecipeCodeName": "danish-leftover-cake-student-bread",
             "Title": "Danish leftover cake “Student bread”",
             "Link": "https://travelbybaking.com/danish-leftover-cake-student-bread/",
             "ThumbNails": [
@@ -727,6 +828,7 @@
     ],
     "recipes with yeast dough": [
         {
+            "RecipeCodeName": "apple-sheet-cake-with-cottage-cheese-latvian-platsmaize",
             "Title": "Apple sheet cake with cottage cheese (Latvian plātsmaize)",
             "Link": "https://travelbybaking.com/apple-sheet-cake-with-cottage-cheese-latvian-platsmaize/",
             "ThumbNails": [
@@ -734,6 +836,7 @@
             ]
         },
         {
+            "RecipeCodeName": "carrot-sheet-cake-latvian-burkanu-platsmaize",
             "Title": "Carrot sheet cake (Latvian burkānu plātsmaize)",
             "Link": "https://travelbybaking.com/carrot-sheet-cake-latvian-burkanu-platsmaize/",
             "ThumbNails": [
@@ -741,6 +844,7 @@
             ]
         },
         {
+            "RecipeCodeName": "cinnamon-rolls",
             "Title": "Cinnamon rolls",
             "Link": "https://travelbybaking.com/cinnamon-rolls/",
             "ThumbNails": [
@@ -748,6 +852,7 @@
             ]
         },
         {
+            "RecipeCodeName": "pastry-cream-buns",
             "Title": "Pastry Cream Buns",
             "Link": "https://travelbybaking.com/pastry-cream-buns/",
             "ThumbNails": [
@@ -755,6 +860,7 @@
             ]
         },
         {
+            "RecipeCodeName": "roscon-de-reyes-three-kings-cake",
             "Title": "Roscon de Reyes (Three Kings cake)",
             "Link": "https://travelbybaking.com/roscon-de-reyes-three-kings-cake/",
             "ThumbNails": [
@@ -762,6 +868,7 @@
             ]
         },
         {
+            "RecipeCodeName": "soft-and-delicious-mini-bacon-buns-latvian-piragi",
             "Title": "Soft and delicious mini bacon buns (Latvian piragi)",
             "Link": "https://travelbybaking.com/soft-and-delicious-mini-bacon-buns-latvian-piragi/",
             "ThumbNails": [
@@ -769,6 +876,7 @@
             ]
         },
         {
+            "RecipeCodeName": "sweet-and-soft-homemade-pretzel-or-latvian-klingeris",
             "Title": "Sweet and soft homemade pretzel or Latvian klinģeris",
             "Link": "https://travelbybaking.com/sweet-and-soft-homemade-pretzel-or-latvian-klingeris/",
             "ThumbNails": [
@@ -776,6 +884,7 @@
             ]
         },
         {
+            "RecipeCodeName": "venezuelan-christmas-bread-pan-de-jamon",
             "Title": "Venezuelan Christmas Bread – Pan de Jamón",
             "Link": "https://travelbybaking.com/venezuelan-christmas-bread-pan-de-jamon/",
             "ThumbNails": [
@@ -783,6 +892,7 @@
             ]
         },
         {
+            "RecipeCodeName": "venezuelan-ham-cachitos-bread-rolls",
             "Title": "Venezuelan ham cachitos (bread rolls)",
             "Link": "https://travelbybaking.com/venezuelan-ham-cachitos-bread-rolls/",
             "ThumbNails": [
@@ -792,6 +902,7 @@
     ],
     "savoury recipes": [
         {
+            "RecipeCodeName": "bell-peppers-filled-with-meat-and-rice",
             "Title": "Bell peppers filled with meat and rice",
             "Link": "https://travelbybaking.com/bell-peppers-filled-with-meat-and-rice/",
             "ThumbNails": [
@@ -799,6 +910,7 @@
             ]
         },
         {
+            "RecipeCodeName": "buttery-and-crumbly-cheese-cookies",
             "Title": "Buttery and crumbly cheese cookies",
             "Link": "https://travelbybaking.com/buttery-and-crumbly-cheese-cookies/",
             "ThumbNails": [
@@ -806,6 +918,7 @@
             ]
         },
         {
+            "RecipeCodeName": "crispy-and-spicy-chicken-wings-in-the-oven",
             "Title": "Crispy and spicy chicken wings in the oven",
             "Link": "https://travelbybaking.com/crispy-and-spicy-chicken-wings-in-the-oven/",
             "ThumbNails": [
@@ -813,6 +926,7 @@
             ]
         },
         {
+            "RecipeCodeName": "duchess-potatoes-with-spinach-and-carrots",
             "Title": "Duchess potatoes with spinach and carrots",
             "Link": "https://travelbybaking.com/duchess-potatoes-with-spinach-and-carrots/",
             "ThumbNails": [
@@ -820,6 +934,7 @@
             ]
         },
         {
+            "RecipeCodeName": "greek-moussaka",
             "Title": "Greek Moussaka",
             "Link": "https://travelbybaking.com/greek-moussaka/",
             "ThumbNails": [
@@ -827,6 +942,7 @@
             ]
         },
         {
+            "RecipeCodeName": "hot-ham-and-cheese-breakfast-sandwiches",
             "Title": "Hot ham and cheese breakfast sandwiches",
             "Link": "https://travelbybaking.com/hot-ham-and-cheese-breakfast-sandwiches/",
             "ThumbNails": [
@@ -834,6 +950,7 @@
             ]
         },
         {
+            "RecipeCodeName": "parsley-pesto-mini-tarts",
             "Title": "Parsley pesto mini tarts",
             "Link": "https://travelbybaking.com/parsley-pesto-mini-tarts/",
             "ThumbNails": [
@@ -841,6 +958,7 @@
             ]
         },
         {
+            "RecipeCodeName": "potato-and-leek-hand-pies",
             "Title": "Potato and leek hand pies",
             "Link": "https://travelbybaking.com/potato-and-leek-hand-pies/",
             "ThumbNails": [
@@ -848,6 +966,7 @@
             ]
         },
         {
+            "RecipeCodeName": "pumpkin-quick-breads-biscuits",
             "Title": "Pumpkin quick breads (biscuits )",
             "Link": "https://travelbybaking.com/pumpkin-quick-breads-biscuits/",
             "ThumbNails": [
@@ -855,6 +974,7 @@
             ]
         },
         {
+            "RecipeCodeName": "small-meat-pies-with-buttery-dough",
             "Title": "Small meat pies with buttery dough",
             "Link": "https://travelbybaking.com/small-meat-pies-with-buttery-dough/",
             "ThumbNails": [
@@ -862,6 +982,7 @@
             ]
         },
         {
+            "RecipeCodeName": "soft-and-delicious-mini-bacon-buns-latvian-piragi",
             "Title": "Soft and delicious mini bacon buns (Latvian piragi)",
             "Link": "https://travelbybaking.com/soft-and-delicious-mini-bacon-buns-latvian-piragi/",
             "ThumbNails": [
@@ -869,6 +990,7 @@
             ]
         },
         {
+            "RecipeCodeName": "spinach-bell-pepper-and-cheese-stuffed-meatloaf",
             "Title": "Spinach, bell pepper and cheese stuffed meatloaf",
             "Link": "https://travelbybaking.com/spinach-bell-pepper-and-cheese-stuffed-meatloaf/",
             "ThumbNails": [
@@ -876,6 +998,7 @@
             ]
         },
         {
+            "RecipeCodeName": "spinach-roll",
             "Title": "Spinach roll",
             "Link": "https://travelbybaking.com/spinach-roll/",
             "ThumbNails": [
@@ -883,6 +1006,7 @@
             ]
         },
         {
+            "RecipeCodeName": "spinach-tart-with-puff-pastry",
             "Title": "Spinach tart with puff pastry",
             "Link": "https://travelbybaking.com/spinach-tart-with-puff-pastry/",
             "ThumbNails": [
@@ -890,6 +1014,7 @@
             ]
         },
         {
+            "RecipeCodeName": "vegetarian-pasta-bake-with-spinach",
             "Title": "Vegetarian pasta bake with spinach",
             "Link": "https://travelbybaking.com/vegetarian-pasta-bake-with-spinach/",
             "ThumbNails": [
@@ -898,6 +1023,7 @@
             ]
         },
         {
+            "RecipeCodeName": "venezuelan-christmas-bread-pan-de-jamon",
             "Title": "Venezuelan Christmas Bread – Pan de Jamón",
             "Link": "https://travelbybaking.com/venezuelan-christmas-bread-pan-de-jamon/",
             "ThumbNails": [
@@ -905,6 +1031,7 @@
             ]
         },
         {
+            "RecipeCodeName": "sweet-potato-and-zucchini-casserole",
             "Title": "Sweet potato and zucchini casserole",
             "Link": "https://travelbybaking.com/sweet-potato-and-zucchini-casserole/",
             "ThumbNails": [
@@ -912,6 +1039,7 @@
             ]
         },
         {
+            "RecipeCodeName": "nachos-with-meat-and-cheese",
             "Title": "Nachos with meat and cheese",
             "Link": "https://travelbybaking.com/nachos-with-meat-and-cheese/",
             "ThumbNails": [
@@ -920,6 +1048,7 @@
             ]
         },
         {
+            "RecipeCodeName": "venezuelan-ham-cachitos-bread-rolls",
             "Title": "Venezuelan ham cachitos (bread rolls)",
             "Link": "https://travelbybaking.com/venezuelan-ham-cachitos-bread-rolls/",
             "ThumbNails": [
@@ -927,6 +1056,7 @@
             ]
         },
         {
+            "RecipeCodeName": "homemade-rye-bread-2",
             "Title": "Homemade rye bread",
             "Link": "https://travelbybaking.com/homemade-rye-bread-2/",
             "ThumbNails": [
@@ -934,6 +1064,7 @@
             ]
         },
         {
+            "RecipeCodeName": "leek-tart-with-puff-pastry",
             "Title": "Leek tart with puff pastry",
             "Link": "https://travelbybaking.com/leek-tart-with-puff-pastry/",
             "ThumbNails": [
@@ -943,6 +1074,7 @@
     ],
     "with meat": [
         {
+            "RecipeCodeName": "bell-peppers-filled-with-meat-and-rice",
             "Title": "Bell peppers filled with meat and rice",
             "Link": "https://travelbybaking.com/bell-peppers-filled-with-meat-and-rice/",
             "ThumbNails": [
@@ -950,6 +1082,7 @@
             ]
         },
         {
+            "RecipeCodeName": "crispy-and-spicy-chicken-wings-in-the-oven",
             "Title": "Crispy and spicy chicken wings in the oven",
             "Link": "https://travelbybaking.com/crispy-and-spicy-chicken-wings-in-the-oven/",
             "ThumbNails": [
@@ -957,6 +1090,7 @@
             ]
         },
         {
+            "RecipeCodeName": "greek-moussaka",
             "Title": "Greek Moussaka",
             "Link": "https://travelbybaking.com/greek-moussaka/",
             "ThumbNails": [
@@ -964,6 +1098,7 @@
             ]
         },
         {
+            "RecipeCodeName": "hot-ham-and-cheese-breakfast-sandwiches",
             "Title": "Hot ham and cheese breakfast sandwiches",
             "Link": "https://travelbybaking.com/hot-ham-and-cheese-breakfast-sandwiches/",
             "ThumbNails": [
@@ -971,6 +1106,7 @@
             ]
         },
         {
+            "RecipeCodeName": "small-meat-pies-with-buttery-dough",
             "Title": "Small meat pies with buttery dough",
             "Link": "https://travelbybaking.com/small-meat-pies-with-buttery-dough/",
             "ThumbNails": [
@@ -978,6 +1114,7 @@
             ]
         },
         {
+            "RecipeCodeName": "soft-and-delicious-mini-bacon-buns-latvian-piragi",
             "Title": "Soft and delicious mini bacon buns (Latvian piragi)",
             "Link": "https://travelbybaking.com/soft-and-delicious-mini-bacon-buns-latvian-piragi/",
             "ThumbNails": [
@@ -985,6 +1122,7 @@
             ]
         },
         {
+            "RecipeCodeName": "spinach-bell-pepper-and-cheese-stuffed-meatloaf",
             "Title": "Spinach, bell pepper and cheese stuffed meatloaf",
             "Link": "https://travelbybaking.com/spinach-bell-pepper-and-cheese-stuffed-meatloaf/",
             "ThumbNails": [
@@ -992,6 +1130,7 @@
             ]
         },
         {
+            "RecipeCodeName": "spinach-tart-with-puff-pastry",
             "Title": "Spinach tart with puff pastry",
             "Link": "https://travelbybaking.com/spinach-tart-with-puff-pastry/",
             "ThumbNails": [
@@ -999,6 +1138,7 @@
             ]
         },
         {
+            "RecipeCodeName": "venezuelan-christmas-bread-pan-de-jamon",
             "Title": "Venezuelan Christmas Bread – Pan de Jamón",
             "Link": "https://travelbybaking.com/venezuelan-christmas-bread-pan-de-jamon/",
             "ThumbNails": [
@@ -1006,6 +1146,7 @@
             ]
         },
         {
+            "RecipeCodeName": "nachos-with-meat-and-cheese",
             "Title": "Nachos with meat and cheese",
             "Link": "https://travelbybaking.com/nachos-with-meat-and-cheese/",
             "ThumbNails": [
@@ -1014,6 +1155,7 @@
             ]
         },
         {
+            "RecipeCodeName": "venezuelan-ham-cachitos-bread-rolls",
             "Title": "Venezuelan ham cachitos (bread rolls)",
             "Link": "https://travelbybaking.com/venezuelan-ham-cachitos-bread-rolls/",
             "ThumbNails": [
@@ -1023,6 +1165,7 @@
     ],
     "lunch and dinner recipes": [
         {
+            "RecipeCodeName": "bell-peppers-filled-with-meat-and-rice",
             "Title": "Bell peppers filled with meat and rice",
             "Link": "https://travelbybaking.com/bell-peppers-filled-with-meat-and-rice/",
             "ThumbNails": [
@@ -1030,6 +1173,7 @@
             ]
         },
         {
+            "RecipeCodeName": "duchess-potatoes-with-spinach-and-carrots",
             "Title": "Duchess potatoes with spinach and carrots",
             "Link": "https://travelbybaking.com/duchess-potatoes-with-spinach-and-carrots/",
             "ThumbNails": [
@@ -1037,6 +1181,7 @@
             ]
         },
         {
+            "RecipeCodeName": "spinach-bell-pepper-and-cheese-stuffed-meatloaf",
             "Title": "Spinach, bell pepper and cheese stuffed meatloaf",
             "Link": "https://travelbybaking.com/spinach-bell-pepper-and-cheese-stuffed-meatloaf/",
             "ThumbNails": [
@@ -1044,6 +1189,7 @@
             ]
         },
         {
+            "RecipeCodeName": "spinach-tart-with-puff-pastry",
             "Title": "Spinach tart with puff pastry",
             "Link": "https://travelbybaking.com/spinach-tart-with-puff-pastry/",
             "ThumbNails": [
@@ -1051,6 +1197,7 @@
             ]
         },
         {
+            "RecipeCodeName": "vegetarian-pasta-bake-with-spinach",
             "Title": "Vegetarian pasta bake with spinach",
             "Link": "https://travelbybaking.com/vegetarian-pasta-bake-with-spinach/",
             "ThumbNails": [
@@ -1059,6 +1206,7 @@
             ]
         },
         {
+            "RecipeCodeName": "sweet-potato-and-zucchini-casserole",
             "Title": "Sweet potato and zucchini casserole",
             "Link": "https://travelbybaking.com/sweet-potato-and-zucchini-casserole/",
             "ThumbNails": [
@@ -1066,6 +1214,7 @@
             ]
         },
         {
+            "RecipeCodeName": "leek-tart-with-puff-pastry",
             "Title": "Leek tart with puff pastry",
             "Link": "https://travelbybaking.com/leek-tart-with-puff-pastry/",
             "ThumbNails": [
@@ -1075,6 +1224,7 @@
     ],
     "vegetarian": [
         {
+            "RecipeCodeName": "buttery-and-crumbly-cheese-cookies",
             "Title": "Buttery and crumbly cheese cookies",
             "Link": "https://travelbybaking.com/buttery-and-crumbly-cheese-cookies/",
             "ThumbNails": [
@@ -1082,6 +1232,7 @@
             ]
         },
         {
+            "RecipeCodeName": "duchess-potatoes-with-spinach-and-carrots",
             "Title": "Duchess potatoes with spinach and carrots",
             "Link": "https://travelbybaking.com/duchess-potatoes-with-spinach-and-carrots/",
             "ThumbNails": [
@@ -1089,6 +1240,7 @@
             ]
         },
         {
+            "RecipeCodeName": "parsley-pesto-mini-tarts",
             "Title": "Parsley pesto mini tarts",
             "Link": "https://travelbybaking.com/parsley-pesto-mini-tarts/",
             "ThumbNails": [
@@ -1096,6 +1248,7 @@
             ]
         },
         {
+            "RecipeCodeName": "potato-and-leek-hand-pies",
             "Title": "Potato and leek hand pies",
             "Link": "https://travelbybaking.com/potato-and-leek-hand-pies/",
             "ThumbNails": [
@@ -1103,6 +1256,7 @@
             ]
         },
         {
+            "RecipeCodeName": "pumpkin-quick-breads-biscuits",
             "Title": "Pumpkin quick breads (biscuits )",
             "Link": "https://travelbybaking.com/pumpkin-quick-breads-biscuits/",
             "ThumbNails": [
@@ -1110,6 +1264,7 @@
             ]
         },
         {
+            "RecipeCodeName": "spinach-roll",
             "Title": "Spinach roll",
             "Link": "https://travelbybaking.com/spinach-roll/",
             "ThumbNails": [
@@ -1117,6 +1272,7 @@
             ]
         },
         {
+            "RecipeCodeName": "vegetarian-pasta-bake-with-spinach",
             "Title": "Vegetarian pasta bake with spinach",
             "Link": "https://travelbybaking.com/vegetarian-pasta-bake-with-spinach/",
             "ThumbNails": [
@@ -1125,6 +1281,7 @@
             ]
         },
         {
+            "RecipeCodeName": "sweet-potato-and-zucchini-casserole",
             "Title": "Sweet potato and zucchini casserole",
             "Link": "https://travelbybaking.com/sweet-potato-and-zucchini-casserole/",
             "ThumbNails": [
@@ -1132,6 +1289,7 @@
             ]
         },
         {
+            "RecipeCodeName": "homemade-rye-bread-2",
             "Title": "Homemade rye bread",
             "Link": "https://travelbybaking.com/homemade-rye-bread-2/",
             "ThumbNails": [
@@ -1139,6 +1297,7 @@
             ]
         },
         {
+            "RecipeCodeName": "leek-tart-with-puff-pastry",
             "Title": "Leek tart with puff pastry",
             "Link": "https://travelbybaking.com/leek-tart-with-puff-pastry/",
             "ThumbNails": [
@@ -1148,6 +1307,7 @@
     ],
     "snacks": [
         {
+            "RecipeCodeName": "buttery-and-crumbly-cheese-cookies",
             "Title": "Buttery and crumbly cheese cookies",
             "Link": "https://travelbybaking.com/buttery-and-crumbly-cheese-cookies/",
             "ThumbNails": [
@@ -1155,6 +1315,7 @@
             ]
         },
         {
+            "RecipeCodeName": "crispy-and-spicy-chicken-wings-in-the-oven",
             "Title": "Crispy and spicy chicken wings in the oven",
             "Link": "https://travelbybaking.com/crispy-and-spicy-chicken-wings-in-the-oven/",
             "ThumbNails": [
@@ -1162,6 +1323,7 @@
             ]
         },
         {
+            "RecipeCodeName": "parsley-pesto-mini-tarts",
             "Title": "Parsley pesto mini tarts",
             "Link": "https://travelbybaking.com/parsley-pesto-mini-tarts/",
             "ThumbNails": [
@@ -1169,6 +1331,7 @@
             ]
         },
         {
+            "RecipeCodeName": "potato-and-leek-hand-pies",
             "Title": "Potato and leek hand pies",
             "Link": "https://travelbybaking.com/potato-and-leek-hand-pies/",
             "ThumbNails": [
@@ -1176,6 +1339,7 @@
             ]
         },
         {
+            "RecipeCodeName": "small-meat-pies-with-buttery-dough",
             "Title": "Small meat pies with buttery dough",
             "Link": "https://travelbybaking.com/small-meat-pies-with-buttery-dough/",
             "ThumbNails": [
@@ -1183,6 +1347,7 @@
             ]
         },
         {
+            "RecipeCodeName": "soft-and-delicious-mini-bacon-buns-latvian-piragi",
             "Title": "Soft and delicious mini bacon buns (Latvian piragi)",
             "Link": "https://travelbybaking.com/soft-and-delicious-mini-bacon-buns-latvian-piragi/",
             "ThumbNails": [
@@ -1190,6 +1355,7 @@
             ]
         },
         {
+            "RecipeCodeName": "spinach-roll",
             "Title": "Spinach roll",
             "Link": "https://travelbybaking.com/spinach-roll/",
             "ThumbNails": [
@@ -1197,6 +1363,7 @@
             ]
         },
         {
+            "RecipeCodeName": "venezuelan-christmas-bread-pan-de-jamon",
             "Title": "Venezuelan Christmas Bread – Pan de Jamón",
             "Link": "https://travelbybaking.com/venezuelan-christmas-bread-pan-de-jamon/",
             "ThumbNails": [
@@ -1204,6 +1371,7 @@
             ]
         },
         {
+            "RecipeCodeName": "nachos-with-meat-and-cheese",
             "Title": "Nachos with meat and cheese",
             "Link": "https://travelbybaking.com/nachos-with-meat-and-cheese/",
             "ThumbNails": [
@@ -1212,6 +1380,7 @@
             ]
         },
         {
+            "RecipeCodeName": "venezuelan-ham-cachitos-bread-rolls",
             "Title": "Venezuelan ham cachitos (bread rolls)",
             "Link": "https://travelbybaking.com/venezuelan-ham-cachitos-bread-rolls/",
             "ThumbNails": [
@@ -1221,6 +1390,7 @@
     ],
     "desserts": [
         {
+            "RecipeCodeName": "chocolate-flan",
             "Title": "Chocolate flan",
             "Link": "https://travelbybaking.com/chocolate-flan/",
             "ThumbNails": [
@@ -1228,6 +1398,7 @@
             ]
         },
         {
+            "RecipeCodeName": "chocolate-lava-cake",
             "Title": "Chocolate lava cake",
             "Link": "https://travelbybaking.com/chocolate-lava-cake/",
             "ThumbNails": [
@@ -1235,6 +1406,7 @@
             ]
         },
         {
+            "RecipeCodeName": "cottage-cheese-and-carrot-dessert",
             "Title": "Cottage cheese and carrot dessert",
             "Link": "https://travelbybaking.com/cottage-cheese-and-carrot-dessert/",
             "ThumbNails": [
@@ -1243,6 +1415,7 @@
             ]
         },
         {
+            "RecipeCodeName": "no-bake-chocolate-cake-chocolate-salami",
             "Title": "No bake chocolate cake – chocolate salami",
             "Link": "https://travelbybaking.com/no-bake-chocolate-cake-chocolate-salami/",
             "ThumbNails": [
@@ -1250,6 +1423,7 @@
             ]
         },
         {
+            "RecipeCodeName": "strawberry-flaugnarde-clafoutis",
             "Title": "Strawberry flaugnarde (clafoutis)",
             "Link": "https://travelbybaking.com/strawberry-flaugnarde-clafoutis/",
             "ThumbNails": [
@@ -1257,6 +1431,7 @@
             ]
         },
         {
+            "RecipeCodeName": "torrijas-spanish-toast-bread-pudding",
             "Title": "Torrijas (Spanish toast / bread pudding)",
             "Link": "https://travelbybaking.com/torrijas-spanish-toast-bread-pudding/",
             "ThumbNails": [
@@ -1266,6 +1441,7 @@
     ],
     "no bake recipes": [
         {
+            "RecipeCodeName": "chocolate-flan",
             "Title": "Chocolate flan",
             "Link": "https://travelbybaking.com/chocolate-flan/",
             "ThumbNails": [
@@ -1273,6 +1449,7 @@
             ]
         },
         {
+            "RecipeCodeName": "no-bake-chocolate-cake-chocolate-salami",
             "Title": "No bake chocolate cake – chocolate salami",
             "Link": "https://travelbybaking.com/no-bake-chocolate-cake-chocolate-salami/",
             "ThumbNails": [
@@ -1280,6 +1457,7 @@
             ]
         },
         {
+            "RecipeCodeName": "torrijas-spanish-toast-bread-pudding",
             "Title": "Torrijas (Spanish toast / bread pudding)",
             "Link": "https://travelbybaking.com/torrijas-spanish-toast-bread-pudding/",
             "ThumbNails": [
@@ -1289,6 +1467,7 @@
     ],
     "lunch / dinner recipe": [
         {
+            "RecipeCodeName": "greek-moussaka",
             "Title": "Greek Moussaka",
             "Link": "https://travelbybaking.com/greek-moussaka/",
             "ThumbNails": [
@@ -1298,6 +1477,7 @@
     ],
     "breakfast recipes": [
         {
+            "RecipeCodeName": "hot-ham-and-cheese-breakfast-sandwiches",
             "Title": "Hot ham and cheese breakfast sandwiches",
             "Link": "https://travelbybaking.com/hot-ham-and-cheese-breakfast-sandwiches/",
             "ThumbNails": [
@@ -1307,6 +1487,7 @@
     ],
     "breads": [
         {
+            "RecipeCodeName": "pumpkin-quick-breads-biscuits",
             "Title": "Pumpkin quick breads (biscuits )",
             "Link": "https://travelbybaking.com/pumpkin-quick-breads-biscuits/",
             "ThumbNails": [
@@ -1314,6 +1495,7 @@
             ]
         },
         {
+            "RecipeCodeName": "homemade-rye-bread-2",
             "Title": "Homemade rye bread",
             "Link": "https://travelbybaking.com/homemade-rye-bread-2/",
             "ThumbNails": [
@@ -1323,6 +1505,7 @@
     ],
     "breakfast": [
         {
+            "RecipeCodeName": "venezuelan-ham-cachitos-bread-rolls",
             "Title": "Venezuelan ham cachitos (bread rolls)",
             "Link": "https://travelbybaking.com/venezuelan-ham-cachitos-bread-rolls/",
             "ThumbNails": [
@@ -1332,6 +1515,7 @@
     ],
     "sourdough breads": [
         {
+            "RecipeCodeName": "homemade-rye-bread-2",
             "Title": "Homemade rye bread",
             "Link": "https://travelbybaking.com/homemade-rye-bread-2/",
             "ThumbNails": [
