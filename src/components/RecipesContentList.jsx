@@ -60,7 +60,8 @@ const getThumbnailsbyRecipe = (key) => {
                             {CATS[category].map(
                                 recipe =>
                                 <li>
-                                {recipe['Title']}
+                                     <a href={`${recipe.Link}`} target='_blank'>{recipe['Title']}</a>
+                                
                                 </li>
                             )}
 
